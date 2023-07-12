@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 70%
+    right: 26%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 20%
 
 
 @keyframes float1
@@ -17,3 +17,33 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__componente
+  h1
+    color: $black
+.banner-principal__descripcion
+  p
+    color: $black
+.banner-principal__accion
+  a > *
+    color: $white
+
+a.boton
+  i, span
+    color: $white
+
+.titulo-herramientas 
+  padding: 1rem
+  background-color: $color-acento-contenido
+  color: $white
+  border-radius: 0 1.5rem
+
+.tema1
+  .img-infografica__item
+    width: 5%
+  .img-infografica__item__numero
+    color: transparent
+
+.tema2,.tema3
+  .bloque-texto-b.color-primario:before
+    background-color: lighten($color-primario, 38%)

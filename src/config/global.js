@@ -1,16 +1,17 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Organizaciones y gestión',
+    descripcionCurso:
+      'Este componente formativo desarrollará los temas relacionados con los conceptos de: organización y empresa, su clasificación y estructura, el análisis de factores que la afectan, tanto internos como externos. Así mismo, tratará aspectos relacionados con el proceso administrativo y la planeación estratégica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
@@ -31,27 +32,70 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Organizaciones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Proceso administrativo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Planeación',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Organización ',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Dirección',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Control',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Factores y variables que impulsan las empresas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Modelos de gestión',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Planeación estratégica',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: '<em>Balanced Score Card</em> ',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Gestión por procesos',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Norma ISO 9001 ',
         desarrolloContenidos: true,
       },
     ],
