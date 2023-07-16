@@ -10,11 +10,22 @@
     p.mb-3(data-aos="zoom-down") La administración de las empresas exige el desarrollo de las cuatro fases del proceso administrativo: #[strong planeación, organización, dirección y control], sobre el conjunto de recursos administrativos que dispone para su operación, dentro de los que se mencionan físicos, talento humano, financieros, técnicos y tecnológicos. 
     p.mb-5(data-aos="zoom-down") Como mencionamos, el proceso administrativo establece el aporte en de cada una de estas funciones a la empresa, así como la correlación o interdependencia entre ellas. Veamos el esquema:
     
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-7.col-lg-5.mb-4.mb-md-0
-        figure
-          img(src='@/assets/curso/temas/tema2/tema2-01.svg', alt='')
 
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/tema2-01.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="36%" y="5%" numero="+")
+            p Identificación y definición del problema.
+            p Qué, cuánto y cómo producir. Señala soluciones y alternativas y diseña políticas, medios de acción y procedimientos.
+          .tarjeta.color-acento-botones.p-3(x="36%" y="20%" numero="+")
+            p Distribución del trabajo, creación de áreas funcionales; determinación de grupos de actividades por cargos, nueva estructura; asignación de recursos por cargo.
+          .tarjeta.color-acento-botones.p-3(x="36%" y="35%" numero="+")
+            p Puesta en acción el plan seleccionado. Adquisición de los recursos tales como la contratación de personal. Dirección de la ejecución de las tareas, además de motivación y comunicación.
+          .tarjeta.color-acento-botones.p-3(x="36%" y="50%" numero="+")
+            p Se realiza seguimiento a la ejecución de los planes y tareas, se mide el desempeño y se corrigen las desviaciones o atrasos respecto de la planeación y al logro de los objetivos.
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Planeación
@@ -40,7 +51,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
-        .tarjeta.color-acento-contenido.p-3
+        .tarjeta-a.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/edificios.svg")
@@ -95,7 +106,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Estructura jerárquica y su distribución departamental en las empresas</i>
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-02.svg', alt='')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-02-md.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-02-sm.svg', alt='') 
 
     p.mb-4(data-aos="fade-down") Dentro de la estructura organizacional es importante definir cómo será el ordenamiento funcional, es decir, establecer el conjunto de actividades afines que conforman los departamentos o áreas de la empresa.
     p.mb-5(data-aos="fade-down") En este sentido, es necesario precisar que toda empresa tiene tres funciones básicas:
@@ -117,10 +129,11 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Ejemplo de organigrama en áreas funcionales para una empresa industrial</i>
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-03.svg', alt='')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-03-md.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-03-sm.svg', alt='') 
 
     .row.justify-content-center.mb-5
-      .col-lg-9.col-md-11.mb-5.mb-lg-0(data-aos="fade-left")
+      .col-lg-10.col-md-11.mb-5.mb-lg-0(data-aos="fade-left")
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
@@ -136,7 +149,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
-        .tarjeta.color-acento-contenido.p-3
+        .tarjeta-a.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
               img(src="@/assets/curso/temas/uml.svg")
@@ -192,8 +205,9 @@
     p.mb-3(data-aos="fade-down") La dirección, como función del proceso administrativo, consiste en dinamizar la empresa y poner en operación y ejecución la planeación (conjunto de iniciativas estratégicas para lograr los objetivos previstos). Una vez que se completa el proceso de planeación y de organización, se cumplirá con la disposición de los recursos para el desarrollo de las actividades, lo que presupone contratación de talento humano si se requiere, compra de recursos, arrendamiento o reorganización de tierras lotes, bodegas, ajuste de las asignaciones de las actividades de manera formal, de darse a lugar. La ejecución requiere de funciones como la comunicación para la coordinación y herramientas tecnológicas que faciliten este proceso, el liderazgo para hacer que las personas desarrollen sus labores con motivación y diligencia, en la oportunidad requerida.
     p.mb-5(data-aos="fade-down") Veamos el siguiente recurso que nos ilustra sobre los estilos de dirección empresarial:
 
-    h1 ###### DISEÑO WEB = VIDEO; INSTRUCCIONAL = CARRUCEL DE TARJETAS ¿? "Estilo dirección empresarial"
-
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -226,7 +240,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Control y seguimiento administrativo</i>
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-04.svg', alt='')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-04-md.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-04-sm.svg', alt='') 
 
 
 </template>

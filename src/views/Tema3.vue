@@ -22,8 +22,8 @@
           img(src='@/assets/curso/temas/tema3/tema3-01.svg', alt='')
     
     Separador
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Factores y variables internos
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 Factores y variables internos
 
     p.mb-4(data-aos="fade-down") Los factores internos o endógeno son el conjunto de variables o aspectos que impulsan e impactan el comportamiento empresarial, es decir, las actuaciones que dependen de la empresa, por tanto, son absolutamente controlables, identificando fortalezas y debilidades. 
 
@@ -36,7 +36,6 @@
             i.fas.fa-quote-right
 
     p.mb-5(data-aos="fade-down") Veamos estos factores internos:
-
     
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-md-10.col-lg-8.col-12
@@ -78,8 +77,8 @@
                     i.fas.fa-file-download
 
     Separador
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Factores y variables externos
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 Factores y variables externos
 
     p.mb-5(data-aos="fade-down") Los factores externos o exógenos son el conjunto de variables o aspectos que impulsan e impactan el comportamiento de la empresa, pero que no depende de sus actuaciones, por tanto, no son de su control.
 
@@ -165,8 +164,237 @@
               h4 Competencia
               p.mb-0 Como es el censo de composición de oferta de la zona de la empresa, existe rivalidad en el sector para la venta, tasa de crecimiento y presencia de nuevos actores, etc.
 
-    p El ejercicio diagnóstico busca identificar los efectos y la medida en que cada uno de estos factores del entorno pueden impactar a la empresa, descubriendo oportunidades de desarrollo y las amenazas sobre las cuales debe prepararse para minimizar un impacto negativo, de manera que logre protegerse de dicho riesgo.
+    p.mb-4(data-aos="flip-down") El ejercicio diagnóstico busca identificar los efectos y la medida en que cada uno de estos factores del entorno pueden impactar a la empresa, descubriendo oportunidades de desarrollo y las amenazas sobre las cuales debe prepararse para minimizar un impacto negativo, de manera que logre protegerse de dicho riesgo.
 
+    Separador
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h3 Herramientas para el análisis de factores y variables internos y externos 
+
+    p.mb-5(data-aos="fade-right") En las empresas, el ejercicio administrativo y gerencial es fundamental para establecer y desarrollar las actividades, con el fin de alcanzar los objetivos deseados definidos en la planeación; esto requiere que en su ejecución se obtenga información del estado de avance de las operaciones internas, de las condiciones externas para el desarrollo del plan, lo que en síntesis permite identificar el estado actual que rodea la empresa u organización, lo que conlleva a unas conclusiones que se denominan diagnóstico. Por lo anterior, existe una serie de herramientas que soportan la gestión empresarial, para optimizar su desarrollo y orientar la toma de decisiones y la dirección efectiva de la empresa (Duque y Anzola, 2013).
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-right")
+      .col-12.col-md-11.col-lg-11
+        .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-3.p-md-3
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-11.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-3
+            p.mb-0 Las herramientas de gestión facilitan el análisis de la organización y aumentan el control, ampliando el conocimiento de los procesos y actividades que se desarrollan que, en un ejercicio compartido con los diferentes actores de áreas funcionales, alinean la organización en la resolución de problemas y la definición de soluciones. Fijación de objetivos, entre otros. 
+              br
+              br
+              | Con estas herramientas se hacen revisiones de variables cualitativas o cuantitativas para toma de decisiones, control y seguimiento de la operación de la empresa, en un ejercicio de control. 
+              
+    p.mb-5(data-aos="fade-right") Las herramientas de análisis empresarial son todos los métodos que se consideren para hacer más eficaz la administración de una empresa al facilitar la toma de decisiones. Entre las herramientas más utilizadas están las siguientes:
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Diagrama de Causa - Efecto
+
+    p.mb-3(data-aos="fade-right") Es una herramienta para identificar de manera estructurada las causas o efecto de un problema evidenciado, a partir de un esquema gráfico que se asemeja a una espina de pescado como también se denomina a esta herramienta.
+    p.mb-5(data-aos="fade-right") La técnica de utilización busca identificar las causas principales de un problema o efecto negativo en la empresa, Luego, identifica las subcausas o variables relacionadas con las causas principales que estén contribuyendo con el problema, estas son de carácter secundario e inclusive terciario como es el caso de proveedores que infieren en la disponibilidad de materias primas, insumos o suministros. Esta herramienta es muy versátil para analizar y resolver problemas complicados, pues permite un análisis desde los factores operativos más relevantes de la empresa.
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Esquema Diagrama Causa -Efecto</i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-12-md.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-12-sm.svg', alt='') 
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Diagrama de Pareto
+
+    p.mb-5(data-aos="fade-right") Esta herramienta corresponde a un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa. Los pocos vitales son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, asociados en una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa del 70% al 80% se concentran en pocas causas y el resto de los múltiples problemas representan del 20% al 30% de los casos. En este sentido, la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio, de forma que, al solucionarlos, probablemente se resolverán muchos de los aspectos menores (Gregorí, s.f.). Para una mayor comprensión veamos el siguiente ejemplo:
+
+    .row.justify-content-center.mb-4
+      .col-12(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Ejemplo comportamiento de las quejas y reclamos de clientes por artículos recibidos en un mes</i>
+        .tabla-a.color-primario.mb-4
+          table
+            thead
+              tr
+                th Causas
+                th Quejas
+                th %
+                th % acumulado
+            tbody
+              tr.color-acento-botones
+                th.text-center Incumplimiento
+                th.text-center 50
+                th.text-center 32,05%
+                th.text-center 32,05%
+              tr.color-acento-botones
+                th.text-center Sucio
+                th.text-center 45
+                th.text-center 28,85%
+                th.text-center 60,90%
+              tr.color-acento-botones
+                th.text-center Defectuoso
+                th.text-center 21
+                th.text-center 13,46%
+                th.text-center 74,36%
+              tr
+                td.text-center No Corresponde 
+                td.text-center 15 
+                td.text-center 9,62%
+                td.text-center 83,97%
+              tr
+                td.text-center Vencido
+                td.text-center 10
+                td.text-center 6,41%
+                td.text-center 90,38
+              tr
+                td.text-center Incompleto
+                td.text-center 8
+                td.text-center 5,13%
+                td.text-center 95,51%
+              tr
+                td.text-center Mal Facturado
+                td.text-center 7
+                td.text-center 4,49%
+                td.text-center 100,00%
+              tr
+                td.text-center Total general
+                td.text-center 156
+                td.text-center 100,00%
+                td.text-center 
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Ejemplo del comportamiento de las quejas y reclamos de clientes por artículos recibidos en un mes</i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-13.svg', alt='')
+
+    .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="fade-left")
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-4.mb-4.mb-lg-0
+            h3.mb-0 ¿Qué se puede evidenciar de la información anterior?
+          .col-lg-8
+            .bloque-texto-a__texto.p-3
+              p En este ejemplo se observa que del total de los 156 casos de quejas y reclamos, el 74,4% de los casos corresponden a tres causas, mientras que las otras cuatro causas de quejas solo contemplan el restante 25,6%; por lo cual, la empresa debe tomar decisiones relacionadas con estas causas que concentran la mayoría de las quejas de los clientes por los productos adquiridos, siendo que en la búsqueda de solucionar estos inconvenientes, y conscientes de la importancia para la empresa, los demás aspectos seguramente también se corregirán.
+
+    p.mb-5(data-aos="fade-left") Esta herramienta es muy útil para el análisis en la empresa y facilita la toma de decisiones; por ello, es un ejercicio de aplicabilidad de la administración promoverla al interior de sus diferentes áreas funcionales.
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Matriz BCG 
+
+    p.mb-4(data-aos="fade-left") La matriz Boston Consulting Group (BCG, por sus siglas en inglés) es una herramienta desarrollada para el análisis gráfico del portafolio de productos, a partir de la posición que ocupa dentro de una empresa cada producto y su tendencia, con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 Es una matriz de cuatro cuadrantes, en cada uno se establece una figura o ícono, que obedece a las características de comportamiento de las líneas de producto o los productos en sí. En el caso de los productos o servicios, se puede realizar una por cada tipo de producto y su mercado, se podrán comparar entre sí, los servicios se comparan aparte, para mantener un equilibrio de comparación, ya que los lotes de inversión son diferentes.
+
+    p.mb-5(data-aos="fade-left") Esta clasificación de productos por categorías se da a partir de:
+
+    TabsA.color-acento-botones.mb-5(data-aos="fade-down-right")
+      .tarjeta.tarjeta--azul.p-4(titulo="Productos Estrella")
+        h4 Productos Estrella
+        p Son aquellos con gran crecimiento y que están logrando buena participación de mercado. A estos productos ubicados en este cuadrante hay que estimularlos, seguirles invirtiendo y no retirarles utilidades, para proyectarlos a productos vacas lechera.
+      .tarjeta.tarjeta--azul.p-4(titulo="Productos Interrogante")
+        h4 Productos Interrogante
+        p Son aquellos productos que tienen un rápido crecimiento, pero poca cuota de participación en el mercado, regularmente, porque son nuevos. Se recomienda seguir invirtiéndoles, porque son semillas que crecerán y se convertirán en productos estrella o vacas lecheras. Se tienen que supervisar permanentemente, porque se pueden convertir en productos perros, teniendo en cuenta que las personas consumen al inicio por exploración, pero si no gustan, no recompran, no crecerán.
+      .tarjeta.tarjeta--azul.p-4(titulo="Productos Vaca Lechera")
+        h4 Productos Vaca Lechera
+        p Son los productos más desarrollados que producen los ingresos más altos en la empresa, están bien posicionados en el mercado, aunque cada vez es más difícil aumentar su crecimiento de ventas, ya que el mercado se encuentra saturado o es inflexible. De los recursos de estos productos se pueden retirar utilidades para la sobrevivencia de la empresa e invertir en los otros productos como Estrellas e incluso interrogantes. 
+      .tarjeta.tarjeta--azul.p-4(titulo="Productos Perro")
+        h4 Productos Perro
+        p Estos productos no presentan crecimiento en ventas y tienen baja participación en el mercado frente a lo que se vende en el sector o industria, por ende, no contribuyen en los beneficios de la empresa regularmente, incluso llegan a generar utilidad negativa. En estos casos, se recomienda retirar del portafolio y oferta de productos estas referencias. En ocasiones hay que mantenerlos, ya que representan la tradición de la empresa, tienen el posicionamiento y generan la confianza en los otros productos de la empresa, aun cuando su contribución no es alta, seguramente, fueron vaca lechera, que por cambios en las tendencias de consumo o porque salieron productos para la misma función o servicio con mejor tecnología o eficiencia se quedaron relegados, se podrían desarrollar estos productos, para ver si se recompone su crecimiento. Este tipo de decisiones son las que deben tomar los empresarios al diagnosticar las potencialidades del producto.
+
+    p.mb-5(data-aos="fade-left") En donde:
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-14-md.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-14-sm.svg', alt='') 
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-11.col-lg-11.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/bienes.svg")
+            .col
+              p Estos cuadrantes se definen entre dos variables:
+              ul.lista-ul.mb-2.ps-4
+                li.mb-0(data-aos="fade-down")
+                  i.fas.fa-circle.fa-cfx(style="color:#7E10B8")
+                  | Crecimiento en el mercado, aumento de las ventas.
+                li.mb-0(data-aos="fade-down")
+                  i.fas.fa-circle.fa-cfx(style="color:#7E10B8")
+                  | Eje de participación de mercado referido a las ventas en el sector o industria a la que contribuye la empresa o cuánto de lo que vende la empresa representa cada producto. 
+
+    p.mb-3(data-aos="fade-left") Comprendido esto, la labor diagnóstica de la empresa es ubicar su portafolio de productos en los cuadrantes según corresponda. Puede haber varios en un solo cuadrante o cuadrantes sin productos.
+    p.mb-5(data-aos="fade-left") Ahora revisemos el ejemplo de aplicación de la Matriz BCG:
+
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-15.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="29%" y="63%" numero="1")
+            p Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5%, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
+          .tarjeta.color-acento-botones.p-3(x="37%" y="41%" numero="2")
+            p Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10%, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
+          .tarjeta.color-acento-botones.p-3(x="63%" y="22.5%" numero="3")
+            p El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
+
+    p.mb-5(data-aos="fade-left") A partir de la ubicación de estos productos del portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos productos, de continuar siendo atractivos y rentables para la empresa. En caso del ejemplo es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3 deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Ciclo de vida del producto
+
+    p.mb-3(data-aos="zoom-down-right") Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa; Está constituido por cuatro fases plenamente identificables
+    p.mb-5(data-aos="zoom-down-right") Reconozcamos en qué consisten cada fase:
+
+    TabsB.color-acento-contenido.mb-5(data-aos="flip-right")
+      .py-4.py-md-5(titulo="Fase de introducción")
+        .row
+          .col-12.col-md-8
+            p A nivel comercial, todo producto inicia en el lanzamiento al mercado, se trata de una novedad para los clientes o consumidores, porque desconocen su desempeño, características, etc., lo que implica que las ventas sean bajas al principio, especialmente, si la empresa o marca asociada no es muy conocida; por ello requiere de inversiones iniciales en estrategias de marketing (promoción y publicidad) para su lanzamiento y distribución, colocación en tiendas, etc., de manera que tenga llegada a los clientes finales.
+            p Antes de lanzar el producto se realiza el estudio, por lo que lo ideal es utilizar toda la información para llegar al tipo de público que pueda interesarse en ese producto u oportunidades para hacerlo.
+          .col-12.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-16.png', alt='')
+      .py-4.py-md-5(titulo="Fase de Crecimiento")
+        .row
+          .col-12.col-md-8
+            p Esta fase consiste en un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad, además de  estrategias de marketing que se implementaron, por lo cual se ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
+            p Esta fase se caracteriza por el aumento sostenido de las ventas. Se empiezan a consolidar beneficios o utilidades del producto; aunque aparecerán competidores que intentarán hacer lo mismo y mejorar el producto, se requiere que la empresa mantenga su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente requiere que se mantenga la calidad del producto y el precio, por ello lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es esencial el aumento de la distribución o presencia comercial para aumentar el número de nuevos clientes.
+            p En esta fase, la empresa recupera su inversión y empieza a obtener beneficio o utilidad, por lo cual se debe tener una adecuada inversión para que esta curva de crecimiento aumente.
+          .col-12.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-17.png', alt='')
+      .py-4.py-md-5(titulo="Fase de Madurez")
+        .row
+          .col-12.col-md-8
+            p En esta fase el producto obtiene grandes niveles de ventas en unidades y, en consecuencia, en dinero. También enfrentará gran competencia, por lo que estos niveles de venta podrán reducirse rápidamente. Muchas empresas se suelen estabilizar en esa zona, porque han comprendido las exigencias de los clientes que atienden su oferta adecuadamente. Sin embargo, es probable que la empresa empiece a tener dificultades para crecer en ventas debido a una mayor competencia, a la saturación del mercado, con lo que se dificulta  aumentar las ventas (no hay más clientes a quien vender). Por ello, la empresa debe buscar nuevos mercados o segmentos geográficos, en los que no ha tenido actividad  comercial y avanzar en nuevas ventas. En esta fase la empresa obtiene utilidades sobre las cuales podrá disponer y solventar los gastos propios de la empresa y su actividad, así como disponer de recursos para promover iniciativas de nuevos productos, etc.
+          .col-12.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-18.png', alt='')
+      .py-4.py-md-5(titulo="Fase de Declive")
+        .row
+          .col-12.col-md-8
+            p Esta fase se caracteriza por un cambio en las preferencias de compra de los clientes, una menor demanda del producto por cambios en las tendencias o modas, etc., lo que se expresa en la fuerte caída de ventas; de ser este el caso, el declive lo sufre también la competencia por lo que hay que entender que todos los productos tienen una vida limitada (salvo algunas excepciones que se amplían en el tiempo, pero con grandes esfuerzos de mejora), por lo que llega un momento en el que entran a no aportar a la empresa beneficios ni utilidades, sino que exclusivamente cubren sus costos o llegan inclusive a ser subsidiados por la misma empresa. Sea cual fuere la naturaleza del declive en ventas hay dos opciones:
+            p.mb-0 - Renovar el producto 
+            p - Retirar el producto totalmente de la oferta del portafolio y del mercado en sí.
+            p Esta decisión debe tomarla la empresa en función de las necesidades del público y de identificar si no es rescatable, ya que está en declive, lo que quiere decir que viene de grandes ventas.
+          .col-12.col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-19.png', alt='')
+
+    p.mb-5(data-aos="zoom-down-right") En la siguiente figura, podemos observar reflejadas las 4 etapas del ciclo de vida de un producto.
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 7. </b> <i>Ciclo de vida del producto</i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-20.svg', alt='')
 
 
 </template>
