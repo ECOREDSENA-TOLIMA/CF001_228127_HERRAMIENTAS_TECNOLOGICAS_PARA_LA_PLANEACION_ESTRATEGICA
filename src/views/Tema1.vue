@@ -8,15 +8,29 @@
       h1 Organizaciones
 
     p(data-aos="zoom-down") El hombre como especie, tiene dentro de sus variadas características la de ser asociativo; esto es que necesita relacionarse con otros individuos. Las primeras asociaciones derivadas de ese relacionamiento continuo fueron las familias en las que se establecieron roles de desempeño, que dio como resultado el origen del trabajo en función de los objetivos comunes. Esta definición de roles, básicamente, consistió en la consecución de recursos por parte de los integrantes de estas nuevas organizaciones, los cuales debían ser racionalizados y distribuidos. De este ir y venir, las organizaciones se vincularon con otras organizaciones familiares e intercambiaron productos o instrumentos, con lo cual se originó el comercio y las actividades permanentes que configuraron la base de la economía y la actuación social. Se desarrolla, entonces, la especialización del trabajo de dichas estructuras, lo que implicó, la expansión de nuevas técnicas adoptadas por las comunidades, se descubre la renovación de los recursos, se inicia una nueva forma social que tiene la capacidad de modificación del entorno, del desarrollo sustantivo de calidades de vida y de la producción de los diferentes recursos que facilitan este proceso.
-    p.mb-5(data-aos="zoom-down") Entonces, ¿cómo se llega al concepto de organización como empresa?
+    //p.mb-5(data-aos="zoom-down") Entonces, ¿cómo se llega al concepto de organización como empresa?
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-10.col-lg-8.col-12
-        .cajon.color-acento-contenido.p-3
-          p.mb-0 Una organización empresarial es un conjunto de personas que persiguen un fin u objetivo común, que adoptan una personería jurídica o nombre propio ante las autoridades civiles que los identifique en su ejercicio y actuación, además de contar con una serie de recursos de diversa índole, para lograr estos objetivos. 
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-left")
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          h3.mb-0 Entonces, ¿cómo se llega al concepto de organización como empresa?
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p Una organización empresarial es un conjunto de personas que persiguen un fin u objetivo común, que adoptan una personería jurídica o nombre propio ante las autoridades civiles que los identifique en su ejercicio y actuación, además de contar con una serie de recursos de diversa índole, para lograr estos objetivos. 
 
-    p.mb-3(data-aos="zoom-down-right") Para el funcionamiento de las organizaciones se deben definir niveles de roles y responsabilidades, por lo cual surge la división del trabajo (todos no pueden hacer de todo); para su operación, es necesario establecer un conjunto de normas y definir procesos a todos sus integrantes, con lo cual es posible parametrizar las actuaciones y, a su vez, lograr los objetivos o metas que aporten a su autonomía y funcionamiento institucional, en beneficio del futuro como organización empresarial. 
+    //.row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+    //  .col-md-10.col-lg-8.col-12
+    //    .cajon.color-acento-contenido.p-3
+    //      p.mb-0 Una organización empresarial es un conjunto de personas que persiguen un fin u objetivo común, que adoptan una personería jurídica o nombre propio ante las autoridades civiles que los identifique en su ejercicio y actuación, además de contar con una serie de recursos de diversa índole, para lograr estos objetivos. 
 
+    p.mb-5(data-aos="zoom-down-right") Para el funcionamiento de las organizaciones se deben definir niveles de roles y responsabilidades, por lo cual surge la división del trabajo (todos no pueden hacer de todo); para su operación, es necesario establecer un conjunto de normas y definir procesos a todos sus integrantes, con lo cual es posible parametrizar las actuaciones y, a su vez, lograr los objetivos o metas que aporten a su autonomía y funcionamiento institucional, en beneficio del futuro como organización empresarial. 
+
+    .row.justify-content-center.mb-5
+      .col-12(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-12.png', alt='')
+
+          
     p.mb-5(data-aos="zoom-down-right") Este concepto de empresa denota un conjunto de acciones arduas, de diversa dificultad, las cuales son de ejercicio continuo y ordinario, que las personas desarrollan para lograr el fin u objetivo. A partir de este concepto, la administración de empresas homologa los términos empresa y organización, porque pretenden los mismos propósitos básicos, un conjunto de personas que desarrollan actividades, con el fin de lograr objetivos comunes. 
 
     .titulo-segundo.color-acento-contenido(data-aos="zoom-down-left")
@@ -30,16 +44,16 @@
     p.mb-5(data-aos="zoom-down-right") Identificación de los recursos para su conformación, por lo que las organizaciones empresariales pueden ser:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-10.col-lg-6.col-12
-        ImagenInfografica.color-secundario.mb-5
+      .col-md-10.col-lg-8.col-12
+        ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/tema1-01.svg', alt='')
-          .tarjeta.color-acento-botones.p-3(x="28%" y="51%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="6%" y="57%" numero="+")
             p Aquellas organizaciones en las que los recursos son de naturaleza pública o del gobierno nacional o local de las regiones donde opera.
-          .tarjeta.color-acento-botones.p-3(x="70%" y="13%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="94%" y="9%" numero="+")
             p Aquellas en las que los recursos son provistos por particulares.
-          .tarjeta.color-acento-botones.p-3(x="70%" y="77%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="94%" y="80%" numero="+")
             p Aquellas en las que los recursos provienen de la asociación de particulares y del gobierno nacional o local.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
@@ -140,33 +154,34 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Según el régimen jurídico al que pertenecen  
 
-    p.mb-5(data-aos="zoom-down-right") Antes de conocer esta clasificación, comprendamos a qué hace referencia el régimen jurídico:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-10.col-lg-8.col-12
-        .cajon.color-acento-contenido.p-3
+      .col-md-8.col-12
+        p.mb-3(data-aos="flip-right") Antes de conocer esta clasificación, comprendamos a qué hace referencia el régimen jurídico:
+        .cajon.color-acento-contenido.p-3.mb-3(data-aos="fade-down-left")
           p.mb-0 El régimen jurídico es el conjunto de normas y disposiciones para la conformación y el desarrollo de iniciativas de empresa en Colombia, los cuales se establecen de conformidad al Código de Industria y Comercio.
-
-    p.mb-3(data-aos="zoom-down-right") De acuerdo con lo anterior, según el régimen jurídico las empresas se clasifican en:
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12(data-aos="fade-right")
-        ul.lista-ul.mb-2
-          li.mb-0
-            i.fas.fa-angle-right
-            | Sociedades limitadas.
-          li.mb-0
-            i.fas.fa-angle-right
-            | Sociedades anónimas simplificadas.
-          li.mb-0
-            i.fas.fa-angle-right
-            | Sociedades anónimas. 
-          li.mb-0
-            i.fas.fa-angle-right
-            | Sociedades en comandita simple y por acciones.
-          li.mb-0
-            i.fas.fa-angle-right
-            | Sociedades de régimen especial.
+        p.mb-3(data-aos="flip-right") De acuerdo con lo anterior, según el régimen jurídico las empresas se clasifican en:
+        .row.justify-content-center.align-items-center
+          .col-12(data-aos="fade-right")
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right
+                | Sociedades limitadas.
+              li.mb-0
+                i.fas.fa-angle-right
+                | Sociedades anónimas simplificadas.
+              li.mb-0
+                i.fas.fa-angle-right
+                | Sociedades anónimas. 
+              li.mb-0
+                i.fas.fa-angle-right
+                | Sociedades en comandita simple y por acciones.
+              li.mb-0
+                i.fas.fa-angle-right
+                | Sociedades de régimen especial.
+      .col-md-4.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Según el nivel de aportes y participación  
@@ -197,15 +212,15 @@
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-md-10.col-lg-9.col-12
-        ImagenInfografica.color-secundario.mb-4
+        ImagenInfografica.color-acento-botones.mb-4
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/tema1-07.svg', alt='')
-          .tarjeta.color-acento-contenido.p-3(x="84%" y="17%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="75%" y="23%" numero="+")
             p Aquellas empresas que se dedican a la intermediación comercial exclusivamente; su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir, compra y venta de mercancías.
-          .tarjeta.color-acento-contenido.p-3(x="84%" y="52%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="75%" y="46%" numero="+")
             p Corresponde a las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.
-          .tarjeta.color-acento-contenido.p-3(x="84%" y="84%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="75%" y="68%" numero="+")
             p Se refiere a las empresas cuya actividad consiste en proveer funciones intangibles. Este es el caso de la educación, el transporte, la asistencia médica, etc., en las cuales para prestar el servicio se requiere de recursos, pero estos no son parte del entregable al cliente.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
@@ -213,7 +228,7 @@
 
     p.mb-3(data-aos="zoom-down-right") En Colombia, la economía se estructura a partir del tipo de proceso de producción que desarrollan las organizaciones empresariales, las cuales, desde un enfoque convencional, se dividen en tres sectores: 
       
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="flip-left")
       SlyderA(tipo="b")
         .row
           .col-md-5.mb-4.mb-md-0
@@ -241,6 +256,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-10.svg', alt='')
 
+    p.mb-4(data-aos="flip-left") En la siguiente figura se observa un resumen sobre los sectores económicos.
     .row.justify-content-center.mb-5
       .col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
@@ -253,7 +269,7 @@
 
     p.mb-5(data-aos="zoom-down-right") En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directa, por lo cual pueden ser:
 
-    TabsA.color-acento-contenido.mb-4(data-aos="zoom-down-right")
+    TabsA.color-acento-botones.mb-4(data-aos="zoom-down-right")
       .tarjeta.tarjeta--azul.p-4(titulo="Locales")
         h4 Locales
         p Son las empresas que ciñen su actividad en un ámbito cercano a su planta de producción y por ende definen su área comercial en una sola localidad o municipio; su mercado se encuentra en sus alrededores o en las poblaciones aledañas a su centro de producción.
