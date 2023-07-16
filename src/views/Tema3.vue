@@ -267,12 +267,12 @@
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-13.svg', alt='')
 
     .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="fade-left")
-        .row.m-0.align-items-center.justify-content-between
-          .col-lg-4.mb-4.mb-lg-0
-            h3.mb-0 ¿Qué se puede evidenciar de la información anterior?
-          .col-lg-8
-            .bloque-texto-a__texto.p-3
-              p En este ejemplo se observa que del total de los 156 casos de quejas y reclamos, el 74,4% de los casos corresponden a tres causas, mientras que las otras cuatro causas de quejas solo contemplan el restante 25,6%; por lo cual, la empresa debe tomar decisiones relacionadas con estas causas que concentran la mayoría de las quejas de los clientes por los productos adquiridos, siendo que en la búsqueda de solucionar estos inconvenientes, y conscientes de la importancia para la empresa, los demás aspectos seguramente también se corregirán.
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          h3.mb-0 ¿Qué se puede evidenciar de la información anterior?
+        .col-lg-8
+          .bloque-texto-a__texto.p-3
+            p En este ejemplo se observa que del total de los 156 casos de quejas y reclamos, el 74,4% de los casos corresponden a tres causas, mientras que las otras cuatro causas de quejas solo contemplan el restante 25,6%; por lo cual, la empresa debe tomar decisiones relacionadas con estas causas que concentran la mayoría de las quejas de los clientes por los productos adquiridos, siendo que en la búsqueda de solucionar estos inconvenientes, y conscientes de la importancia para la empresa, los demás aspectos seguramente también se corregirán.
 
     p.mb-5(data-aos="fade-left") Esta herramienta es muy útil para el análisis en la empresa y facilita la toma de decisiones; por ello, es un ejercicio de aplicabilidad de la administración promoverla al interior de sus diferentes áreas funcionales.
 
