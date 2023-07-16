@@ -165,7 +165,7 @@
               h4 Competencia
               p.mb-0 Como es el censo de composición de oferta de la zona de la empresa, existe rivalidad en el sector para la venta, tasa de crecimiento y presencia de nuevos actores, etc.
 
-
+    p El ejercicio diagnóstico busca identificar los efectos y la medida en que cada uno de estos factores del entorno pueden impactar a la empresa, descubriendo oportunidades de desarrollo y las amenazas sobre las cuales debe prepararse para minimizar un impacto negativo, de manera que logre protegerse de dicho riesgo.
 
 
 
