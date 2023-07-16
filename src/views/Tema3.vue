@@ -396,6 +396,196 @@
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-20.svg', alt='')
 
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Relación de la Matriz BCG y el Ciclo de vida del producto
+
+    p.mb-5(data-aos="zoom-down-right") En la siguiente figura, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG identificando como el crecimiento en ventas se relaciona con la participación de mercado y el tiempo, con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, su clasificación y su ciclo de vida de producto.
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 8. </b> <i>Relación de la matriz BCG y el ciclo de vida del producto</i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-21.svg', alt='')
+
+    p.mb-3(data-aos="zoom-down-right") La capacidad competitiva de un producto o servicio se debe correlacionar con su ciclo de vida en el que atraviesa al momento del diagnóstico con el fin de establecer las posibilidades estratégicas y de decisión. Un producto con buena participación en el mercado y un crecimiento sostenible en ventas, puede corresponder a una situación previa al declive, por lo cual la empresa deberá prepararse para hacer un reacondicionamiento o mejoramiento a su producto en beneficio de alargar la etapa de madurez, es decir, tomar las decisiones de defensa de su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general.
+    p.mb-5(data-aos="zoom-down-right") En este sentido, la empresa, procurará, según la fase en que se encuentre su producto, agilizar su efecto y ampliar la fase de maduración. Cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas, reforzar su producto a efectos de evitar el declive. 
+
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-12.col-lg-10.col-md-11
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 Tengamos en cuenta que, en la etapa de introducción, los esfuerzos deben ser dinámicos ágiles, canalizar las inversiones para el posicionamiento y conocimiento, de forma que el producto llegue a los consumidores potenciales, para resolver el interrogante que representan estos productos en la matriz BCG.|
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Herramientas de información Estadística básica
+
+    p.mb-4(data-aos="fade-right") Los procesos de gestión como los procesos de diagnóstico empresarial requieren de información y análisis permanente, de tal manera que evidencien el estado actual, la evolución de los mismos, la tendencia y permitan la toma de decisiones. Una de las herramientas que facilita este ejercicio con la información en los procesos es la estadística, que se define como la ciencia dedicada al ordenamiento y análisis de conjuntos de datos para obtener descripciones, explicaciones o predicciones sobre aspectos percibidos y analizados (Gregori, s.f.).
+    h3.mb-3(data-aos="fade-right") ¿Cuáles son los tipos de estadística?
+    p.mb-4(data-aos="fade-right") La estadística se puede subdividir en dos grandes ramas:  
+
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-lg-11.col-12
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-22.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="8%" y="70%" numero="+")
+            p Se ocupa de los métodos para la recolección, la organización, y la presentación de resumen, de un conjunto de datos analizados, buscando describir sus características mediante instrumentos gráficos y de tablas.
+          .tarjeta.color-acento-botones.p-3(x="92%" y="25%" numero="+")
+            p Más allá de resumir y describir datos, este tipo de estadística se ocupa de realizar predicciones y generalizaciones de situaciones, obteniendo conclusiones a partir de los datos utilizados en el análisis, siempre presumiendo un grado de incertidumbre o falla.
+
+    h3.mb-3(data-aos="fade-right") ¿Cuáles son los elementos de la Estadística?
+    p.mb-4(data-aos="fade-right") Los principales elementos que conforman la estadística son los siguientes:
+
+    TabsA.color-acento-botones.mb-4(data-aos="fade-down-right")
+      .tarjeta.tarjeta--azul.p-4(titulo="Población")
+        h4 Población
+        p Conjunto de datos que representan hechos, actuaciones, ocurrencias o individuos, que presentan una característica en común, que los describe y es posible proyectar incluso si hay más población.
+      .tarjeta.tarjeta--azul.p-4(titulo="Muestra")
+        h4 Muestra
+        p Es una extracción o subgrupo de datos extraídos de una población que representa los rasgos generales de la totalidad del grupo y se acepta. La muestra puede ser igual a la población, cuando se hace de manera sensual, lo que hay que dejar explícito. En diagnósticos empresariales como el universo es pequeño, las consultas de clima, de percepción de cumplimientos misionales, etc, se aconseja realizarlos a todo el universo de empleados.
+      .tarjeta.tarjeta--azul.p-4(titulo="Parámetros")
+        h4 Parámetros
+        p Son descriptores de la población de datos analizados, son medidas propias que dan información sobre:
+        p.mb-0 - El centro de un conjunto de datos (promedios, datos más repetidos o moda), 
+        p.mb-0 - Dispersión o variabilidad de los datos (medidas de dispersión)
+        p - Posición de un valor (medidas de posición como los percentiles).
+      .tarjeta.tarjeta--azul.p-4(titulo="Variables")
+        h4 Variables
+        p Expresa las características o cualidades de una población de datos, pueden ser::
+        p.mb-0 #[strong - Nominales:] que no tienen orden, por ejemplo, los colores, las razones por las cuales hay ausentismo en el trabajo, etc. 
+        p.mb-0 #[strong - Ordinales:] que si bien no son numéricas, si definen un sentido de ordenamiento natural. Por ejemplo, los días de la semana; también como grande, mediano, pequeño.
+        p #[strong - Numérica:] definen estrictamente un sentido de orden y se pueden hacer operaciones matemáticas con ellas, diferente a los otros tipos de variables.
+    
+    p.mb-4 Ejemplos del uso de estadística en Economía:
+
+    ul.lista-ul.mb-4
+      li(data-aos="fade-down")
+        i.fas.fa-atom(style="color: #304C8E")
+        | Indicadores macroeconómicos agregados como el PIB y su contraste en diferentes periodos.
+      li(data-aos="fade-down")
+        i.fas.fa-atom(style="color: #304C8E")
+        | Comportamiento de las tasas de interés en los últimos años.
+      li(data-aos="fade-down")
+        i.fas.fa-atom(style="color: #304C8E")
+        | Evolución de los precios por inflación en los últimos años.
+
+    p.mb-3(data-aos="fade-right") Por estas razones los gerentes y el personal del equipo de diagnóstico deben aprender a utilizarla, para interpretar y usarla como fuente de información agregada o resumida de algún tipo de variable o factor a analizar, así mismo para expresar los hallazgos más significativos.
+    p.mb-3(data-aos="fade-right") Ahora, conozcamos otras herramientas o técnicas de uso importante a nivel estadístico:
+    p.mb-5(data-aos="fade-right") Para efectos de ampliar conocimientos y utilización de estas y otras herramientas estadísticas le invitamos a consultar la siguiente información:
+
+    AcordionA(tipo="b" clase-tarjeta="tarjeta color-primario")
+      .row.justify-content-center(titulo="Diagrama de frecuencias o estratificación")
+        .col-md-12.mb-3.mb-md-0
+          p Es una técnica de distribución de las frecuencias de una variable que busca estratificar el comportamiento de la misma, no denota un sentido de orden específico. 
+          p En el siguiente ejemplo se puede observar su enfoque de uso:
+          p En una empresa agrícola, el gerente desea saber cómo es el consumo y venta de verduras; para ello, recurre al análisis estadístico del promedio de ventas de estos recursos, lo que le servirá como parámetro para tomar decisiones.
+        .col-12.col-lg-10.mb-3
+          h3.text-center Concentración del estado de cartera por ventas (millones)
+          .tabla-a.color-primario.mb-4
+            table
+              thead
+                tr
+                  th 
+                  th Corriente
+                  th 30 días
+                  th 60 días
+                  th 90 días
+                  th Total de cartera
+              tbody
+                tr
+                  th.text-center Cartera
+                  td.text-center 50
+                  td.text-center 35 
+                  td.text-center 15
+                  td.text-center 12
+                  td.text-center 112
+                tr
+                  th.text-center Frecuencias
+                  td.text-center 44,6%
+                  td.text-center 31,3%
+                  td.text-center 13,4%
+                  td.text-center 10,7%
+                  td.text-center 100,00%
+        .col-12.mb-3
+          p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
+        .col-12.col-lg-10.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='')
+      .row.justify-content-center(titulo="Histograma")
+        .col-md-12.mb-3.mb-md-0
+          p Es la distribución del comportamiento que denota la distribución de las frecuencias a lo largo de la variable continua. Veamos el ejemplo:
+          p En el caso de las ventas en un semestre, el gerente desea saber cómo es su estacionalidad o comportamiento típico, para lo cual presenta la siguiente información.
+        .col-12.mb-3
+          h3.text-center Registro del nivel de ventas por mes en primer semestre
+        .col-12.col-lg-10.mb-3
+          .tabla-a.color-primario.mb-4
+            table
+              thead
+                tr
+                  th 
+                  th Enero
+                  th Febrero
+                  th Marzo
+                  th Abril
+                  th Mayo
+                  th Junio
+                  th Total
+              tbody
+                tr
+                  th.text-center Ventas/mes
+                  td 55
+                  td 20
+                  td 70
+                  td 50
+                  td 40
+                  td 65
+                  td 30
+                tr
+                  th.text-center %
+                  td 18.3%
+                  td 6,7%
+                  td 23,3%
+                  td 16,7%
+                  td 13,3%
+                  td 21.7%
+                  td 100,0%
+        .col-12.mb-3
+          p En este caso, la variable continua es el tiempo (meses del primer semestre), entonces, el gerente del restaurante puede identificar el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos semestral en la empresa por ventas. Con esta información, podrá tomar decisiones sobre la disposición de caja y programación de pagos; asimismo, establecerá niveles de metas funcionales, es decir, en periodos de baja estacionalidad, la empresa podrá desarrollar actividades de capacitación o entrenamientos, ya que para su desarrollo, requiere periodos de concentración en estas actividades sin afectar la producción. De igual manera, realizará la implementación de nuevos procesos, tal como se ve para el mes de febrero.
+          h3.text-center Histograma del comportamiento de ventas semestrales en una empresa
+        .col-12.col-md-10.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='')
+      .row.justify-content-center(titulo="Diagramas de Pastel")
+        .col-12.mb-3
+          h3.text-center Distribución de clientes de la empresa por región de operación
+        .col-12.col-lg-8.col-md-10.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-11.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta-a.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/beneficios.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4 Herramientas estadísticas
+                  p.text-small Las Herramientas estadísticas de calidad son un conjunto de técnicas gráficas que son útiles, conozcamos: las Herramientas estadísticas emitidas en la institución de Servicios de Educación Superior Tecnológica.
+                  p.text-small Para alcanzar la calidad hay que alcanzar unos objetivos y valorar la consecución de los mismos, en este caso se verá en: Herramientas estadísticas básicas de la calidad de Pablo Gregori.
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html" target="_blank")
+                    span Link
+                    i.fas.fa-link
+                  br
+                  br
+                  a.boton.color-acento-botones(href="https://www3.uji.es/~gregori/docencia/mt1021-1516/tema5-herramientas-pablo.html" target="_blank")
+                    span Link
+                    i.fas.fa-link
+
+
 
 </template>
 
