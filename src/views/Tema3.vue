@@ -195,7 +195,7 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-11.col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Esquema Diagrama Causa -Efecto</i>
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Esquema Diagrama Causa - Efecto</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-12-md.svg', alt='')
           img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-12-sm.svg', alt='') 
@@ -586,6 +586,39 @@
                     i.fas.fa-link
 
 
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Indicadores de gestión
+
+    p.mb-5(data-aos="fade-right") Cuando se habla de indicadores de gestión, en seguida viene a la mente sinónimos de medición y control, que efectivamente es la función para la cual se establecen. Pero, ¿Cómo podemos definir los indicadores de gestión?
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-right")
+      .col-12.col-md-11.col-lg-11
+        .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-3.p-md-3
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-26.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-3
+            p.mb-0 Los indicadores de gestión son los instrumentos a través de los cuales la empresa mide sus desempeños en las diferentes funciones, actividades que desarrolla y que contrasta con los resultados esperados y fijados desde una planeación. Facilitan la evaluación de los niveles de cumplimiento o desviación de los logros o actividades a realizar frente a estos resultados.
+
+    p.mb-3(data-aos="fade-right") Un indicador de gestión #[i Key Performance Indicator] (KPI, por sus siglas en inglés) representa la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio o la persona encargada están logrando las metas y objetivos o resultados esperados.
+    p.mb-5(data-aos="fade-right") Se deben utilizar indicadores de gestión en todos los niveles empresariales para evaluar el desempeño y lo establecido como metas en la planeación de la gestión empresarial. A continuación, puede revisar algunos ejemplos:
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta-a.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/proyectos.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4 Indicadores de gestión
+                  p.text-small Ejemplos de algunos indicadores de gestión aplicados a cada una de las áreas funcionales de la empresa.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/PDF_Ejemplo de algunos indicadores de gestión.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
 </template>
 
