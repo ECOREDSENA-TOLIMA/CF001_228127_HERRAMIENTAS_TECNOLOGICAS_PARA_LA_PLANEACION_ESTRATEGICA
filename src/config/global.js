@@ -68,6 +68,24 @@ export default {
         numero: '3',
         titulo: 'Factores y variables que impulsan las empresas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Factores y variables internos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Factores y variables externos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Herramientas para el análisis de factores y variables internos y externos',
+            hash: 't_3_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
@@ -149,7 +167,7 @@ export default {
       tema: 'Proceso administrativo',
       referencia:
         'Asturias Corporación Universitaria, Gestión por Procesos (s.f.) ',
-      tipo: 'Artículo',
+      tipo: 'PDF',
       link:
         'https://www.centro-virtual.com/recursos/biblioteca/pdf/dgp_gestion_calidad/clase2_pdf1.pdf',
     },

@@ -91,13 +91,13 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-angle-right
-            | Enfoque al cliente
+            | Enfoque al cliente.
           li.mb-0
             i.fas.fa-angle-right
             | Liderazgo gerencial.
           li.mb-0
             i.fas.fa-angle-right
-            | Participación del equipo de trabajo o personal de la empresa .
+            | Participación del equipo de trabajo o personal de la empresa.
           li.mb-0
             i.fas.fa-angle-right
             | Enfoque basado en los procesos empresariales. 

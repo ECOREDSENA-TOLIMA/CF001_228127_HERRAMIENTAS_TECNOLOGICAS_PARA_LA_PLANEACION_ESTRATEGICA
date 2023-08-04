@@ -22,8 +22,8 @@
           img(src='@/assets/curso/temas/tema3/tema3-01.svg', alt='')
     
     Separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 Factores y variables internos
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.1 Factores y variables internos
 
     p.mb-4(data-aos="fade-down") Los factores internos o endógeno son el conjunto de variables o aspectos que impulsan e impactan el comportamiento empresarial, es decir, las actuaciones que dependen de la empresa, por tanto, son absolutamente controlables, identificando fortalezas y debilidades. 
 
@@ -37,14 +37,14 @@
 
     p.mb-5(data-aos="fade-down") Veamos estos factores internos:
     
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-10.col-lg-8.col-12
+    .row.align-items-center.justify-content-center(data-aos="fade-down-left")
+      .col-md-11.col-12.d-none.d-sm-none.d-md-block.mb-5
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema3/tema3-02.svg', alt='')
           .tarjeta.color-acento-botones.p-3(x="0%" y="2%" numero="+")
-            p Busca identificar los avances y dificultades frente al logro y cumplimiento de los preceptos institucionales; esto es identificar si cuenta con una misión plenamente definida, con una visión de a dónde se quiere llegar, objetivos y metas en ruta de esa visión, principios y valores empresariales; asimismo, si tiene establecidos manuales de procesos de procedimientos para la ejecución de las actividades, manuales de funciones para los integrante de la organización, mismo que establezcan los aportes y desempeños de cada empleado.
+            p Busca identificar los avances y dificultades frente al logro y cumplimiento de los preceptos institucionales; esto es identificar si cuenta con una misión plenamente definida, con una visión de a dónde se quiere llegar, objetivos y metas en ruta de esa visión, principios y valores empresariales; asimismo, si tiene establecidos manuales de procesos de procedimientos para la ejecución de las actividades, manuales de funciones para los integrantes de la organización, mismo que establezcan los aportes y desempeños de cada empleado.
           .tarjeta.color-acento-botones.p-3(x="34%" y="2%" numero="+")
             p Se analiza el portafolio, las categorías, gama de productos, la rotación, productos más fuertes, la estacionalidad, la relación calidad/precio, los factores de diferenciación, promoción y otras consideraciones adicionales en función de la empresa como, por ejemplo, la asistencia técnica, garantías, el desarrollo de nuevos productos, la obsolescencia, vida útil y su cumplimiento, entre otros.
           .tarjeta.color-acento-botones.p-3(x="69%" y="2%" numero="+")
@@ -52,13 +52,55 @@
           .tarjeta.color-acento-botones.p-3(x="0%" y="39.5%" numero="+")
             p Se evaluarán los ámbitos de gestión, métodos, procedimientos, los sistemas de información, los procesos en línea y automatización, si son eficaces y suficientes, junto con los factores referentes a la producción, la cadena de valor, definiendo o revisando la necesidad de capacidades potencial y real, incluyendo logística e innovación.
           .tarjeta.color-acento-botones.p-3(x="34%" y="39.5%" numero="+")
-            p Se analizarán todos aquellos factores referentes al marketing mix y a la comunicación tanto la realizada por los medios tradicionales, como la comunicación online a través de banners, redes sociales, blogs, portales, entre otros.
+            p Se analizarán todos aquellos factores referentes al #[i marketing mix] y a la comunicación, tanto la realizada por los medios tradicionales, como la comunicación online a través de banners, redes sociales, blogs, portales, entre otros.
           .tarjeta.color-acento-botones.p-3(x="69%" y="39.5%" numero="+")
-            p Se analizan variables como la composición de la planta de personal, su estructura organización, tipos de contratación, percepción del clima laboral, nivel de salarios.
+            p Se analizan variables como la composición de la planta de personal, su estructura, organización, tipos de contratación, percepción del clima laboral, nivel de salarios.
           .tarjeta.color-acento-botones.p-3(x="20%" y="76.5%" numero="+")
             p Se estudiarán los estados financieros como el Balance general, estado de resultados, flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
           .tarjeta.color-acento-botones.p-3(x="52%" y="76.5%" numero="+")
             p Contar con recursos actualizados como software integrado para lograr un mayor desarrollo, se evalúa el plan de renovación, sustitución y mantenimientos.
+
+    .row.d-block.d-md-none.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-12.mb-4(data-aos="fade-down-left")
+        h5.text-center Gestión administrativa estratégica
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-1.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Busca identificar los avances y dificultades frente al logro y cumplimiento de los preceptos institucionales; esto es identificar si cuenta con una misión plenamente definida, con una visión de a dónde se quiere llegar, objetivos y metas en ruta de esa visión, principios y valores empresariales; asimismo, si tiene establecidos manuales de procesos de procedimientos para la ejecución de las actividades, manuales de funciones para los integrantes de la organización, mismo que establezcan los aportes y desempeños de cada empleado.
+      .col-12.mb-4(data-aos="fade-down-right")
+        h5.text-center Productos y servicios
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-2.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Se analiza el portafolio, las categorías, gama de productos, la rotación, productos más fuertes, la estacionalidad, la relación calidad/precio, los factores de diferenciación, promoción y otras consideraciones adicionales en función de la empresa como, por ejemplo, la asistencia técnica, garantías, el desarrollo de nuevos productos, la obsolescencia, vida útil y su cumplimiento, entre otros.
+      .col-12.mb-4(data-aos="fade-down-left")
+        h5.text-center Mercado de clientes
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-3.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Se estudiará el ámbito geográfico para ubicar la segmentación (características de los clientes), el posicionamiento o grado de recordación del producto o marca, la participación en el mercado o nivel de ventas, el modelo de negocio, los criterios de compra y factores de decisión, el censo de oferta o de competidores directos, clientes existentes, nuevos clientes potenciales, clientes insatisfechos, rotación de clientes, etc.
+      .col-12.mb-4(data-aos="fade-down-right")
+        h5.text-center Procesos empresariales
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-4.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Se evaluarán los ámbitos de gestión, métodos, procedimientos, los sistemas de información, los procesos en línea y automatización, si son eficaces y suficientes, junto con los factores referentes a la producción, la cadena de valor, definiendo o revisando la necesidad de capacidades potencial y real, incluyendo logística e innovación.
+      .col-12.mb-4(data-aos="fade-down-left")
+        h5.text-center #[i Marketing] y comunicación
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-5.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Se analizarán todos aquellos factores referentes al #[i marketing mix] y a la comunicación, tanto la realizada por los medios tradicionales, como la comunicación online a través de banners, redes sociales, blogs, portales, entre otros.
+      .col-12.mb-4(data-aos="fade-down-right")
+        h5.text-center Recursos humanos y organización
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-6.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Se analizan variables como la composición de la planta de personal, su estructura, organización, tipos de contratación, percepción del clima laboral, nivel de salarios.
+      .col-12.mb-4(data-aos="fade-down-left")
+        h5.text-center Posición Financiera
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-7.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Se estudiarán los estados financieros como el Balance general, estado de resultados, flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
+      .col-12.mb-4(data-aos="fade-down-right")
+        h5.text-center Tecnología disponible
+        img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-8.svg', alt='', style="width:auto")
+        .tarjeta.color-acento-botones--borde.p-3.mt-3
+          p.mb-0 Contar con recursos actualizados como software integrado para lograr un mayor desarrollo, se evalúa el plan de renovación, sustitución y mantenimientos.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -72,13 +114,13 @@
                   h4 Clasificación de clientes
                   p.text-small Para saber más sobre la clasificación de clientes, puede consultar este documento.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-Clasificación de clientes.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Clasificacion_de_clientes.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
     Separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 Factores y variables externos
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.2 Factores y variables externos
 
     p.mb-5(data-aos="fade-down") Los factores externos o exógenos son el conjunto de variables o aspectos que impulsan e impactan el comportamiento de la empresa, pero que no depende de sus actuaciones, por tanto, no son de su control.
 
@@ -138,7 +180,7 @@
           .tarjeta.color-primario
             .p-4
               h4 Tecnológicos
-              p.mb-0 Formación para su manejo, nuevos avances, comercialización y representación de esas nuevas tecnologías inversión en I+D en el sector o actividad de la empresa, etc.
+              p.mb-0 Formación para su manejo, nuevos avances, comercialización y representación de esas nuevas tecnologías, inversión en I+D en el sector o actividad de la empresa, etc.
       .col-lg-6
         .tarjeta-avatar-b.mb-5(style="height:85%")
           .tarjeta-avatar-b__img
@@ -154,7 +196,7 @@
           .tarjeta.color-primario
             .p-4
               h4 Proveedores
-              p.mb-0 Se busca identificar su concentración y ubicación, están agremiados, existe flexibilidad de precios, existen materias primas, insumos suministros sustitutos.
+              p.mb-0 Se busca identificar su concentración y ubicación, están agremiados, existe flexibilidad de precios, existen materias primas, insumos, suministros sustitutos.
       .col-lg-6
         .tarjeta-avatar-b.mb-5(style="height:85%")
           .tarjeta-avatar-b__img
@@ -167,8 +209,8 @@
     p.mb-4(data-aos="flip-down") El ejercicio diagnóstico busca identificar los efectos y la medida en que cada uno de estos factores del entorno pueden impactar a la empresa, descubriendo oportunidades de desarrollo y las amenazas sobre las cuales debe prepararse para minimizar un impacto negativo, de manera que logre protegerse de dicho riesgo.
 
     Separador
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3 Herramientas para el análisis de factores y variables internos y externos 
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h3 3.3 Herramientas para el análisis de factores y variables internos y externos 
 
     p.mb-5(data-aos="fade-right") En las empresas, el ejercicio administrativo y gerencial es fundamental para establecer y desarrollar las actividades, con el fin de alcanzar los objetivos deseados definidos en la planeación; esto requiere que en su ejecución se obtenga información del estado de avance de las operaciones internas, de las condiciones externas para el desarrollo del plan, lo que en síntesis permite identificar el estado actual que rodea la empresa u organización, lo que conlleva a unas conclusiones que se denominan diagnóstico. Por lo anterior, existe una serie de herramientas que soportan la gestión empresarial, para optimizar su desarrollo y orientar la toma de decisiones y la dirección efectiva de la empresa (Duque y Anzola, 2013).
 
@@ -197,8 +239,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Esquema Diagrama Causa - Efecto</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-12-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-12-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-12-md.svg', :alt='alt_img_12')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-12-sm.svg', :alt='alt_img_12') 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Diagrama de Pareto
@@ -242,7 +284,7 @@
                 td.text-center Vencido
                 td.text-center 10
                 td.text-center 6,41%
-                td.text-center 90,38
+                td.text-center 90,38%
               tr
                 td.text-center Incompleto
                 td.text-center 8
@@ -260,11 +302,17 @@
                 td.text-center 
 
     .row.justify-content-center.mb-5
-      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+      .col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Ejemplo del comportamiento de las quejas y reclamos de clientes por artículos recibidos en un mes</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-13.svg', alt='')
+          img(src='@/assets/curso/temas/tema3/tema3-13.svg', :alt='alt_img_13')
+        .d-block.d-md-none
+          a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-13.svg')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-jpg.svg")
+            .anexo__texto
+              p #[b Anexo.] Comportamiento de las ventas semestrales mes a mes.
 
     .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between
@@ -279,7 +327,7 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Matriz BCG 
 
-    p.mb-4(data-aos="fade-left") La matriz Boston Consulting Group (BCG, por sus siglas en inglés) es una herramienta desarrollada para el análisis gráfico del portafolio de productos, a partir de la posición que ocupa dentro de una empresa cada producto y su tendencia, con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
+    p.mb-4(data-aos="fade-left") La matriz #[i Boston Consulting Group] (BCG, por sus siglas en inglés) es una herramienta desarrollada para el análisis gráfico del portafolio de productos, a partir de la posición que ocupa dentro de una empresa cada producto y su tendencia, con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
       .col-12
@@ -330,8 +378,8 @@
     p.mb-3(data-aos="fade-left") Comprendido esto, la labor diagnóstica de la empresa es ubicar su portafolio de productos en los cuadrantes según corresponda. Puede haber varios en un solo cuadrante o cuadrantes sin productos.
     p.mb-5(data-aos="fade-left") Ahora revisemos el ejemplo de aplicación de la Matriz BCG:
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-11.col-lg-10.col-12
+    .row.align-items-center.justify-content-center(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12.mb-5.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
@@ -342,20 +390,40 @@
             p Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10%, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
           .tarjeta.color-acento-botones.p-3(x="63%" y="22.5%" numero="3")
             p El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
+    
+    .row.d-block.d-md-none.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-12.mb-4(data-aos="fade-down-left")
+        h5.text-center Gestión administrativa estratégica
+        img.text-center(src='@/assets/curso/temas/tema3/infoB-1.svg', alt='')
+      .col-12.mb-4(data-aos="fade-down-left")
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 1
+          p.mb-0 Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5%, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
+      .col-12.mb-4(data-aos="fade-down-left")
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 2
+          p.mb-0 Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10%, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
+      .col-12.mb-4(data-aos="fade-down-left")
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 3
+          p.mb-0 El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
 
     p.mb-5(data-aos="fade-left") A partir de la ubicación de estos productos del portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos productos, de continuar siendo atractivos y rentables para la empresa. En caso del ejemplo es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3 deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Ciclo de vida del producto
 
-    p.mb-3(data-aos="zoom-down-right") Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa; Está constituido por cuatro fases plenamente identificables
+    p.mb-3(data-aos="zoom-down-right") Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa; Está constituido por cuatro fases plenamente identificables.
     p.mb-5(data-aos="zoom-down-right") Reconozcamos en qué consisten cada fase:
 
     TabsB.color-acento-contenido.mb-5(data-aos="flip-right")
       .py-4.py-md-5(titulo="Fase de introducción")
         .row
           .col-12.col-md-8
-            p A nivel comercial, todo producto inicia en el lanzamiento al mercado, se trata de una novedad para los clientes o consumidores, porque desconocen su desempeño, características, etc., lo que implica que las ventas sean bajas al principio, especialmente, si la empresa o marca asociada no es muy conocida; por ello requiere de inversiones iniciales en estrategias de marketing (promoción y publicidad) para su lanzamiento y distribución, colocación en tiendas, etc., de manera que tenga llegada a los clientes finales.
+            p A nivel comercial, todo producto inicia en el lanzamiento al mercado, se trata de una novedad para los clientes o consumidores, porque desconocen su desempeño, características, etc., lo que implica que las ventas sean bajas al principio, especialmente, si la empresa o marca asociada no es muy conocida; por ello requiere de inversiones iniciales en estrategias de #[i marketing] (promoción y publicidad) para su lanzamiento y distribución, colocación en tiendas, etc., de manera que tenga llegada a los clientes finales.
             p Antes de lanzar el producto se realiza el estudio, por lo que lo ideal es utilizar toda la información para llegar al tipo de público que pueda interesarse en ese producto u oportunidades para hacerlo.
           .col-12.col-md-4
             figure
@@ -363,8 +431,8 @@
       .py-4.py-md-5(titulo="Fase de Crecimiento")
         .row
           .col-12.col-md-8
-            p Esta fase consiste en un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad, además de  estrategias de marketing que se implementaron, por lo cual se ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
-            p Esta fase se caracteriza por el aumento sostenido de las ventas. Se empiezan a consolidar beneficios o utilidades del producto; aunque aparecerán competidores que intentarán hacer lo mismo y mejorar el producto, se requiere que la empresa mantenga su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente requiere que se mantenga la calidad del producto y el precio, por ello lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es esencial el aumento de la distribución o presencia comercial para aumentar el número de nuevos clientes.
+            p Esta fase consiste en un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad, además de  estrategias de #[i marketing] que se implementaron, por lo cual se ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
+            p Esta fase se caracteriza por el aumento sostenido de las ventas. Se empiezan a consolidar beneficios o utilidades del producto; aunque aparecerán competidores que intentarán hacer lo mismo y mejorar el producto, se requiere que la empresa mantenga su estrategia de #[i marketing] para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente requiere que se mantenga la calidad del producto y el precio, por ello lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es esencial el aumento de la distribución o presencia comercial para aumentar el número de nuevos clientes.
             p En esta fase, la empresa recupera su inversión y empieza a obtener beneficio o utilidad, por lo cual se debe tener una adecuada inversión para que esta curva de crecimiento aumente.
           .col-12.col-md-4
             figure
@@ -394,7 +462,7 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 7. </b> <i>Ciclo de vida del producto</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-20.svg', alt='')
+          img(src='@/assets/curso/temas/tema3/tema3-20.svg', :alt='alt_img_20')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Relación de la Matriz BCG y el Ciclo de vida del producto
@@ -406,7 +474,7 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 8. </b> <i>Relación de la matriz BCG y el ciclo de vida del producto</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-21.svg', alt='')
+          img(src='@/assets/curso/temas/tema3/tema3-21.svg', :alt='alt_img_21')
 
     p.mb-3(data-aos="zoom-down-right") La capacidad competitiva de un producto o servicio se debe correlacionar con su ciclo de vida en el que atraviesa al momento del diagnóstico con el fin de establecer las posibilidades estratégicas y de decisión. Un producto con buena participación en el mercado y un crecimiento sostenible en ventas, puede corresponder a una situación previa al declive, por lo cual la empresa deberá prepararse para hacer un reacondicionamiento o mejoramiento a su producto en beneficio de alargar la etapa de madurez, es decir, tomar las decisiones de defensa de su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general.
     p.mb-5(data-aos="zoom-down-right") En este sentido, la empresa, procurará, según la fase en que se encuentre su producto, agilizar su efecto y ampliar la fase de maduración. Cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas, reforzar su producto a efectos de evitar el declive. 
@@ -414,7 +482,7 @@
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-12.col-lg-10.col-md-11
         .cajon.color-acento-contenido.p-3
-          p.mb-0 Tengamos en cuenta que, en la etapa de introducción, los esfuerzos deben ser dinámicos ágiles, canalizar las inversiones para el posicionamiento y conocimiento, de forma que el producto llegue a los consumidores potenciales, para resolver el interrogante que representan estos productos en la matriz BCG.|
+          p.mb-0 Tengamos en cuenta que, en la etapa de introducción, los esfuerzos deben ser dinámicos, ágiles, canalizar las inversiones para el posicionamiento y conocimiento, de forma que el producto llegue a los consumidores potenciales, para resolver el interrogante que representan estos productos en la matriz BCG.|
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Herramientas de información Estadística básica
@@ -423,8 +491,8 @@
     h3.mb-3(data-aos="fade-right") ¿Cuáles son los tipos de estadística?
     p.mb-4(data-aos="fade-right") La estadística se puede subdividir en dos grandes ramas:  
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-lg-11.col-12
+    .row.align-items-center.justify-content-center(data-aos="fade-down-left")
+      .col-lg-11.col-12.mb-5.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
@@ -433,6 +501,11 @@
             p Se ocupa de los métodos para la recolección, la organización, y la presentación de resumen, de un conjunto de datos analizados, buscando describir sus características mediante instrumentos gráficos y de tablas.
           .tarjeta.color-acento-botones.p-3(x="92%" y="25%" numero="+")
             p Más allá de resumir y describir datos, este tipo de estadística se ocupa de realizar predicciones y generalizaciones de situaciones, obteniendo conclusiones a partir de los datos utilizados en el análisis, siempre presumiendo un grado de incertidumbre o falla.
+    
+    .row.d-block.d-md-none.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-12.mb-4(data-aos="fade-down-left")
+        figure
+          img(src='@/assets/curso/temas/tema3/tema3-22-a.svg', :alt='alt_img_22')
 
     h3.mb-3(data-aos="fade-right") ¿Cuáles son los elementos de la Estadística?
     p.mb-4(data-aos="fade-right") Los principales elementos que conforman la estadística son los siguientes:
@@ -443,7 +516,7 @@
         p Conjunto de datos que representan hechos, actuaciones, ocurrencias o individuos, que presentan una característica en común, que los describe y es posible proyectar incluso si hay más población.
       .tarjeta.tarjeta--azul.p-4(titulo="Muestra")
         h4 Muestra
-        p Es una extracción o subgrupo de datos extraídos de una población que representa los rasgos generales de la totalidad del grupo y se acepta. La muestra puede ser igual a la población, cuando se hace de manera sensual, lo que hay que dejar explícito. En diagnósticos empresariales como el universo es pequeño, las consultas de clima, de percepción de cumplimientos misionales, etc, se aconseja realizarlos a todo el universo de empleados.
+        p Es una extracción o subgrupo de datos extraídos de una población que representa los rasgos generales de la totalidad del grupo y se acepta. La muestra puede ser igual a la población, cuando se hace de manera sensual, lo que hay que dejar explícito. En diagnósticos empresariales como el universo es pequeño, las consultas de clima, de percepción de cumplimientos misionales, etc., se aconseja realizarlos a todo el universo de empleados.
       .tarjeta.tarjeta--azul.p-4(titulo="Parámetros")
         h4 Parámetros
         p Son descriptores de la población de datos analizados, son medidas propias que dan información sobre:
@@ -471,8 +544,7 @@
         | Evolución de los precios por inflación en los últimos años.
 
     p.mb-3(data-aos="fade-right") Por estas razones los gerentes y el personal del equipo de diagnóstico deben aprender a utilizarla, para interpretar y usarla como fuente de información agregada o resumida de algún tipo de variable o factor a analizar, así mismo para expresar los hallazgos más significativos.
-    p.mb-3(data-aos="fade-right") Ahora, conozcamos otras herramientas o técnicas de uso importante a nivel estadístico:
-    p.mb-5(data-aos="fade-right") Para efectos de ampliar conocimientos y utilización de estas y otras herramientas estadísticas le invitamos a consultar la siguiente información:
+    p.mb-5(data-aos="fade-right") Ahora, conozcamos otras herramientas o técnicas de uso importante a nivel estadístico:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta color-primario")
       .row.justify-content-center(titulo="Diagrama de frecuencias o estratificación")
@@ -509,9 +581,16 @@
                   td.text-center 100,00%
         .col-12.mb-3
           p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
-        .col-12.col-lg-10.mb-3
+        .col-12.mb-3
+          h4.mb-4.text-center Diagrama de estratificación del estado de cartera por ventas a clientes
           figure
             img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='')
+          .d-block.d-md-none
+            a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-23.svg')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-jpg.svg")
+              .anexo__texto
+                p #[b Anexo.] Concentración del estado de cartera por ventas en millones de pesos.
       .row.justify-content-center(titulo="Histograma")
         .col-md-12.mb-3.mb-md-0
           p Es la distribución del comportamiento que denota la distribución de las frecuencias a lo largo de la variable continua. Veamos el ejemplo:
@@ -533,7 +612,7 @@
                   th Total
               tbody
                 tr
-                  th.text-center Ventas/mes
+                  th.text-center Ventas / mes
                   td 55
                   td 20
                   td 70
@@ -553,15 +632,57 @@
         .col-12.mb-3
           p En este caso, la variable continua es el tiempo (meses del primer semestre), entonces, el gerente del restaurante puede identificar el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos semestral en la empresa por ventas. Con esta información, podrá tomar decisiones sobre la disposición de caja y programación de pagos; asimismo, establecerá niveles de metas funcionales, es decir, en periodos de baja estacionalidad, la empresa podrá desarrollar actividades de capacitación o entrenamientos, ya que para su desarrollo, requiere periodos de concentración en estas actividades sin afectar la producción. De igual manera, realizará la implementación de nuevos procesos, tal como se ve para el mes de febrero.
           h3.text-center Histograma del comportamiento de ventas semestrales en una empresa
-        .col-12.col-md-10.mb-3
+        .col-12.mb-3
           figure
             img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='')
+          .d-block.d-md-none
+            a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-24.svg')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-jpg.svg")
+              .anexo__texto
+                p #[b Anexo.] Comportamiento de las ventas semestrales mes a mes.
       .row.justify-content-center(titulo="Diagramas de Pastel")
         .col-12.mb-3
-          h3.text-center Distribución de clientes de la empresa por región de operación
-        .col-12.col-lg-8.col-md-10.mb-3
+          p Es otro esquema de representación gráfica estadística que busca descomponer una variable en sus diferentes categorías, mostrando la cantidad de frecuencia o casos, evidenciando cuanto del total corresponde cada categoría dentro de la variable. Veamos el ejemplo:
+          p En un  restaurante se desea conocer el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente recibe de su administrador la siguiente información.
+        .col-12.col-lg-10.mb-3
+          .titulo-sexto.color-primario
+            p.titulo.pb-0.mb-0 Toneladas de verduras vendidas por tipo de mercado.
+          .tabla-a.color-primario.mb-4
+            table
+              thead
+                tr
+                  th Región
+                  th Número de clientes
+              tbody
+                tr.text-center
+                  td Boyacá
+                  td 8
+                tr.text-center
+                  td Antioquía
+                  td 15
+                tr.text-center
+                  td Tolima
+                  td 11
+                tr.text-center
+                  td Cundinamarca
+                  td 16
+                tr.text-center
+                  td Total: clientes regionales
+                  td 50
+        .col-12.col-md-10.mb-3
+          .titulo-sexto.color-primario
+            p.titulo.pb-0.mb-0 Distribución de clientes de la empresa por región de operación
           figure
             img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='')
+          .d-block.d-md-none
+            a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-25.svg')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-jpg.svg")
+              .anexo__texto
+                p #[b Anexo.] Número de clientes por región.
+    
+    p.mb-5(data-aos="fade-right") Para efectos de ampliar conocimientos y utilización de estas y otras herramientas estadísticas le invitamos a consultar la siguiente información:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.mb-4.mb-md-0(data-aos="fade-left")
@@ -616,7 +737,7 @@
                   h4 Indicadores de gestión
                   p.text-small Ejemplos de algunos indicadores de gestión aplicados a cada una de las áreas funcionales de la empresa.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/PDF_Ejemplo de algunos indicadores de gestión.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/PDF_Ejemplo_indicadores_de_gestion.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -627,6 +748,18 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+    alt_img_12:
+      'En este esquema tipo espina de pescado, se trabaja bajo aspectos generales como: trabajo, maquinaria, entorno, materiales, medición y método, con sus respectivos indicadores, todo con el propósito de encontrar el efecto o problema.',
+    alt_img_13: `En el plano cartesiano relacionado con el comportamiento de las quejas y reclamos de clientes en artículos recibidos en un mes, se representa mediante barras las causas de queja de los clientes vs. el porcentaje del tipo de queja.
+Las principales causas de queja son: incumplimiento, suciedad, defectos, no corresponde, vencimiento, incompleto, o mal facturado.`,
+    alt_img_20: `El ciclo de vida del producto se representa mediante un polígono de frecuencia, en donde se aprecia el nivel de ventas vs. la inversión.
+El nivel de ventas se mide por alta, moderada y baja.
+La inversión se mide por: poco, moderado tiempo y alto.
+El resultado del ciclo se estima en introducción, crecimiento, madurez y declive.
+`,
+    alt_img_21: `Esta relación tiene en cuenta la figura de polígono de frecuencia demostrando el beneficio o utilidad de acuerdo con el ejemplo trabajado de: estrella, interrogante, vaca y perro.`,
+    alt_img_22: `Estadística descriptiva: se ocupa de los métodos para la recolección, la organización, y la presentación de resumen, de un conjunto de datos analizados, buscando describir sus características mediante instrumentos gráficos y de tablas.
+Estadística inferencial: más allá de resumir y describir datos, este tipo de estadística se ocupa de realizar predicciones y generalizaciones de situaciones, obteniendo conclusiones a partir de los datos utilizados en el análisis, siempre presumiendo un grado de incertidumbre o falla.`,
   }),
   mounted() {
     this.$nextTick(() => {

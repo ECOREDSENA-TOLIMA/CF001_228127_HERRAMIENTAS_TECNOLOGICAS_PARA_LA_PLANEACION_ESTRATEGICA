@@ -44,7 +44,7 @@
     p.mb-5(data-aos="zoom-down-right") Identificación de los recursos para su conformación, por lo que las organizaciones empresariales pueden ser:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-10.col-lg-8.col-12
+      .col-md-10.col-lg-8.col-12.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
@@ -55,7 +55,10 @@
             p Aquellas en las que los recursos son provistos por particulares.
           .tarjeta.color-acento-botones.p-3(x="94%" y="80%" numero="+")
             p Aquellas en las que los recursos provienen de la asociación de particulares y del gobierno nacional o local.
-
+      .col-12.d-block.d-md-none
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-01-b.svg', :alt='alt_img_01')
+      
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Según la destinación de los recursos y utilidad
 
@@ -211,7 +214,7 @@
     p.mb-5(data-aos="zoom-down-right") Veamos cuál es la clasificación que corresponde a esta modalidad:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-10.col-lg-9.col-12
+      .col-md-10.col-lg-9.col-12.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-acento-botones.mb-4
           template(v-slot:imagen)
             figure
@@ -222,6 +225,9 @@
             p Corresponde a las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.
           .tarjeta.color-acento-botones.p-3(x="75%" y="68%" numero="+")
             p Se refiere a las empresas cuya actividad consiste en proveer funciones intangibles. Este es el caso de la educación, el transporte, la asistencia médica, etc., en las cuales para prestar el servicio se requiere de recursos, pero estos no son parte del entregable al cliente.
+      .col-md-10.col-lg-9.col-12.d-block.d-md-none
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-07-sm.svg', :alt='alt_img_07')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Según el sector productivo 
@@ -262,7 +268,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Clasificación de las empresas en sectores según su actividad</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='')
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-11.svg', :alt='alt_img_11')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-11-b.svg', :alt='alt_img_11') 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Según el ámbito territorial de operación
@@ -296,6 +303,18 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    alt_img_01: `Organizaciones privadas: aquellas en las que los recursos son provistos por particulares.
+Organizaciones públicas: aquellas organizaciones en las que los recursos son de naturaleza pública o del gobierno nacional o local de las regiones donde opera.
+Organizaciones mixtas: aquellas en las que los recursos provienen de la asociación de particulares y del gobierno nacional o local.
+`,
+    alt_img_11: `Sector primario, dedicado a actividades que se obtienen directamente de la naturaleza, como: agricultura, ganadería, pesca y minería.
+Sector secundario, dedicado a actividades que transforman materias primas en productos elaborados, como: la industria y la construcción.
+Sector terciario o de servicios, dedicado a actividades que proporcionan servicios, como: el comercio, el turismo, la sanidad y la educación.
+`,
+    alt_img_07: `Comerciales: aquellas empresas que se dedican a la intermediación comercial exclusivamente; su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir, compra y venta de mercancías.
+Industriales o de Manufactura: corresponde a las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.
+Servicios: se refiere a las empresas cuya actividad consiste en proveer funciones intangibles. Este es el caso de la educación, el transporte, la asistencia médica, etc., en las cuales para prestar el servicio se requiere de recursos, pero estos no son parte del entregable al cliente.
+`,
   }),
   mounted() {
     this.$nextTick(() => {

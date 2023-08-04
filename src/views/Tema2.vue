@@ -8,11 +8,11 @@
       h1 Proceso Administrativo
 
     p.mb-3(data-aos="zoom-down") La administración de las empresas exige el desarrollo de las cuatro fases del proceso administrativo: #[strong planeación, organización, dirección y control], sobre el conjunto de recursos administrativos que dispone para su operación, dentro de los que se mencionan físicos, talento humano, financieros, técnicos y tecnológicos. 
-    p.mb-5(data-aos="zoom-down") Como mencionamos, el proceso administrativo establece el aporte en de cada una de estas funciones a la empresa, así como la correlación o interdependencia entre ellas. Veamos el esquema:
+    p.mb-4(data-aos="zoom-down") Como mencionamos, el proceso administrativo establece el aporte en de cada una de estas funciones a la empresa, así como la correlación o interdependencia entre ellas. Veamos el esquema:
     
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-11.col-lg-10.col-12
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12.d-none.d-sm-none.d-md-block
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
@@ -26,6 +26,10 @@
             p Puesta en acción el plan seleccionado. Adquisición de los recursos tales como la contratación de personal. Dirección de la ejecución de las tareas, además de motivación y comunicación.
           .tarjeta.color-acento-botones.p-3(x="36%" y="50%" numero="+")
             p Se realiza seguimiento a la ejecución de los planes y tareas, se mide el desempeño y se corrigen las desviaciones o atrasos respecto de la planeación y al logro de los objetivos.
+      .col-12.d-block.d-md-none
+        figure
+          img(src='@/assets/curso/temas/tema2/tema2-01-sm.svg', :alt='alt_img_01') 
+
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Planeación
@@ -47,7 +51,7 @@
             i.fas.fa-angle-right
             | Reconoce las alternativas para lograr superar la necesidad, el fin o el objetivo. 
 
-    p.mb-5(data-aos="zoom-down") Este proceso permite trazar la solución simultánea de varios tipos de necesidades o de problemas como en el caso de los resultados de la matriz DOFA, en la que cada cruce de oportunidades, fortalezas, amenazas y debilidades exige diferentes actuaciones y, por ende, diferentes alternativas, lo que requiere que el gerente o administrador tenga habilidad para formar equipos de trabajo, construir y consensuar las diferentes alternativas de solución. 
+    p.mb-5(data-aos="zoom-down") Este proceso permite trazar la solución simultánea de varios tipos de necesidades o de problemas, como en el caso de los resultados de la matriz DOFA, en la que cada cruce de oportunidades, fortalezas, amenazas y debilidades exige diferentes actuaciones y, por ende, diferentes alternativas, lo que requiere que el gerente o administrador tenga habilidad para formar equipos de trabajo, construir y consensuar las diferentes alternativas de solución. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -106,8 +110,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Estructura jerárquica y su distribución departamental en las empresas</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-02-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-02-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-02-md.svg', :alt='alt_img_02')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-02-sm.svg', :alt='alt_img_02') 
 
     p.mb-4(data-aos="fade-down") Dentro de la estructura organizacional es importante definir cómo será el ordenamiento funcional, es decir, establecer el conjunto de actividades afines que conforman los departamentos o áreas de la empresa.
     p.mb-5(data-aos="fade-down") En este sentido, es necesario precisar que toda empresa tiene tres funciones básicas:
@@ -129,8 +133,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Ejemplo de organigrama en áreas funcionales para una empresa industrial</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-03-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-03-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-03-md.svg', :alt='alt_img_03')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-03-sm.svg', :alt='alt_img_03') 
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-md-11.mb-5.mb-lg-0(data-aos="fade-left")
@@ -160,7 +164,7 @@
                   p.text-small Le invitamos a revisar el siguiente ejemplo de organización de áreas, actividades y recursos en una empresa, que describe la técnica para la asignación y estimación de recursos y el desarrollo de las actividades.
                   p.text-small Asimismo, si desea tener mayor detalle, consulte el documento #[em Presupuesto de recursos administrativos por área o proceso], en el que puede evidenciar un modelo de organización. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo presupuesto recursos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_presupuesto_recursos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -236,12 +240,12 @@
     p.mb-4(data-aos="fade-down") Las empresas cuentan con muchos recursos técnicos y tecnológicos que facultan sus seguimientos a los planes y permiten recoger información de los indicadores de gestión, con el fin de detallar el comportamiento y trazabilidad de las acciones.
 
     .row.justify-content-center.mb-5
-      .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+      .col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Control y seguimiento administrativo</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-04-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-04-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-04-md.svg', :alt='alt_img_04')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-04-sm.svg', :alt='alt_img_04') 
 
 
 </template>
@@ -252,6 +256,14 @@ export default {
   data: () => ({
     // variables de vue
     link_2_1: 'https://blog.hubspot.es/sales/plan-de-accion-empresa',
+    alt_img_01: `Planeación: identificación y definición del problema. Qué, cuánto y cómo producir. Señala soluciones y alternativas y diseña políticas, medios de acción y procedimientos.
+Organización: distribución del trabajo, creación de áreas funcionales; determinación de grupos de actividades por cargos, nueva estructura; asignación de recursos por cargo.  
+Dirección: puesta en acción el plan seleccionado. Adquisición de los recursos tales como la contratación de personal. Dirección de la ejecución de las tareas, además de motivación y comunicación. 
+Control: se realiza seguimiento a la ejecución de los planes y tareas, se mide el desempeño y se corrigen las desviaciones o atrasos respecto de la planeación y al logro de los objetivos.
+`,
+    alt_img_02: `Se representa como una pirámide, a la cabeza se encuentra la junta directiva, que corresponde un nivel estratégico o decisional, está supeditado los directores de área o jefes de división, los cuales corresponden a un nivel táctico o de coordinación. Y por último en la base de la pirámide se encuentran los supervisores y operarios, que corresponden a un nivel operativo o de ejecución.`,
+    alt_img_03: `Un organigrama se representa mediante niveles jerárquicos, a la cabeza se encuentra la junta de socios, por debajo de estos, la gerencia o administración general, de la cual dependerán las diferentes áreas como administración, producción, distribución y ventas y comercialización, y a cada una de estas áreas se asocian los departamentos o unidades de trabajo.`,
+    alt_img_04: `En el flujograma se encuentran las estratégicas tácticas, y el plan de acción, de donde se desprende la medición de desempeño a partir de indicadores, y de estos surge la evaluación, para llegar a un punto de verificación de cumplimiento de satisfacción, de haber cumplido se continua con las mediciones. De no cumplir el nivel estándar de satisfacción se procede a justar medidas y control, e iniciar nuevamente con las estrategias y el plan de acción, o la medición de desempeño e indicadores.`,
   }),
   mounted() {
     this.$nextTick(() => {
