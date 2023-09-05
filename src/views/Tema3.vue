@@ -114,7 +114,7 @@
                   h4 Clasificación de clientes
                   p.text-small Para saber más sobre la clasificación de clientes, puede consultar este documento.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Clasificacion_de_clientes.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_Clasificacion_de_clientes.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -229,7 +229,8 @@
     p.mb-5(data-aos="fade-right") Las herramientas de análisis empresarial son todos los métodos que se consideren para hacer más eficaz la administración de una empresa al facilitar la toma de decisiones. Entre las herramientas más utilizadas están las siguientes:
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Diagrama de Causa - Efecto
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Diagrama de Causa - Efecto
+      div.titulo-herramientas.d-block.d-md-none Diagrama de Causa - Efecto
 
     p.mb-3(data-aos="fade-right") Es una herramienta para identificar de manera estructurada las causas o efecto de un problema evidenciado, a partir de un esquema gráfico que se asemeja a una espina de pescado como también se denomina a esta herramienta.
     p.mb-5(data-aos="fade-right") La técnica de utilización busca identificar las causas principales de un problema o efecto negativo en la empresa, Luego, identifica las subcausas o variables relacionadas con las causas principales que estén contribuyendo con el problema, estas son de carácter secundario e inclusive terciario como es el caso de proveedores que infieren en la disponibilidad de materias primas, insumos o suministros. Esta herramienta es muy versátil para analizar y resolver problemas complicados, pues permite un análisis desde los factores operativos más relevantes de la empresa.
@@ -245,7 +246,7 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Diagrama de Pareto
 
-    p.mb-5(data-aos="fade-right") Esta herramienta corresponde a un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa. Los pocos vitales son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, asociados en una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa del 70% al 80% se concentran en pocas causas y el resto de los múltiples problemas representan del 20% al 30% de los casos. En este sentido, la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio, de forma que, al solucionarlos, probablemente se resolverán muchos de los aspectos menores (Gregorí, s.f.). Para una mayor comprensión veamos el siguiente ejemplo:
+    p.mb-5(data-aos="fade-right") Esta herramienta corresponde a un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa. Los pocos vitales son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, asociados en una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa del 70 % al 80 % se concentran en pocas causas y el resto de los múltiples problemas representan del 20 % al 30 % de los casos. En este sentido, la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio, de forma que, al solucionarlos, probablemente se resolverán muchos de los aspectos menores (Gregorí, s.f.). Para una mayor comprensión veamos el siguiente ejemplo:
 
     .row.justify-content-center.mb-4
       .col-12(data-aos="fade-left")
@@ -263,42 +264,42 @@
               tr.color-acento-botones
                 th.text-center Incumplimiento
                 th.text-center 50
-                th.text-center 32,05%
-                th.text-center 32,05%
+                th.text-center 32,05 %
+                th.text-center 32,05 %
               tr.color-acento-botones
                 th.text-center Sucio
                 th.text-center 45
-                th.text-center 28,85%
-                th.text-center 60,90%
+                th.text-center 28,85 %
+                th.text-center 60,90 %
               tr.color-acento-botones
                 th.text-center Defectuoso
                 th.text-center 21
-                th.text-center 13,46%
-                th.text-center 74,36%
+                th.text-center 13,46 %
+                th.text-center 74,36 %
               tr
                 td.text-center No Corresponde 
                 td.text-center 15 
-                td.text-center 9,62%
-                td.text-center 83,97%
+                td.text-center 9,62 %
+                td.text-center 83,97 %
               tr
                 td.text-center Vencido
                 td.text-center 10
-                td.text-center 6,41%
-                td.text-center 90,38%
+                td.text-center 6,41 %
+                td.text-center 90,38 %
               tr
                 td.text-center Incompleto
                 td.text-center 8
-                td.text-center 5,13%
-                td.text-center 95,51%
+                td.text-center 5,13 %
+                td.text-center 95,51 %
               tr
                 td.text-center Mal Facturado
                 td.text-center 7
-                td.text-center 4,49%
-                td.text-center 100,00%
+                td.text-center 4,49 %
+                td.text-center 100,00 %
               tr
                 td.text-center Total general
                 td.text-center 156
-                td.text-center 100,00%
+                td.text-center 100,00 %
                 td.text-center 
 
     .row.justify-content-center.mb-5
@@ -320,7 +321,7 @@
           h3.mb-0 ¿Qué se puede evidenciar de la información anterior?
         .col-lg-8
           .bloque-texto-a__texto.p-3
-            p En este ejemplo se observa que del total de los 156 casos de quejas y reclamos, el 74,4% de los casos corresponden a tres causas, mientras que las otras cuatro causas de quejas solo contemplan el restante 25,6%; por lo cual, la empresa debe tomar decisiones relacionadas con estas causas que concentran la mayoría de las quejas de los clientes por los productos adquiridos, siendo que en la búsqueda de solucionar estos inconvenientes, y conscientes de la importancia para la empresa, los demás aspectos seguramente también se corregirán.
+            p En este ejemplo se observa que del total de los 156 casos de quejas y reclamos, el 74,4 % de los casos corresponden a tres causas, mientras que las otras cuatro causas de quejas solo contemplan el restante 25,6 %; por lo cual, la empresa debe tomar decisiones relacionadas con estas causas que concentran la mayoría de las quejas de los clientes por los productos adquiridos, siendo que en la búsqueda de solucionar estos inconvenientes, y conscientes de la importancia para la empresa, los demás aspectos seguramente también se corregirán.
 
     p.mb-5(data-aos="fade-left") Esta herramienta es muy útil para el análisis en la empresa y facilita la toma de decisiones; por ello, es un ejercicio de aplicabilidad de la administración promoverla al interior de sus diferentes áreas funcionales.
 
@@ -385,11 +386,11 @@
             figure
               img(src='@/assets/curso/temas/tema3/tema3-15.svg', alt='')
           .tarjeta.color-acento-botones.p-3(x="29%" y="63%" numero="1")
-            p Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5%, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
+            p Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5 %, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
           .tarjeta.color-acento-botones.p-3(x="37%" y="41%" numero="2")
-            p Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10%, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
+            p Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10 %, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
           .tarjeta.color-acento-botones.p-3(x="63%" y="22.5%" numero="3")
-            p El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
+            p El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15 %, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
     
     .row.d-block.d-md-none.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-12.mb-4(data-aos="fade-down-left")
@@ -399,22 +400,23 @@
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
             .h2 1
-          p.mb-0 Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5%, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
+          p.mb-0 Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5 %, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
       .col-12.mb-4(data-aos="fade-down-left")
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
             .h2 2
-          p.mb-0 Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10%, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
+          p.mb-0 Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10 %, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
       .col-12.mb-4(data-aos="fade-down-left")
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
             .h2 3
-          p.mb-0 El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
+          p.mb-0 El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15 %, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
 
     p.mb-5(data-aos="fade-left") A partir de la ubicación de estos productos del portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos productos, de continuar siendo atractivos y rentables para la empresa. En caso del ejemplo es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3 deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Ciclo de vida del producto
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Ciclo de vida del producto
+      div.titulo-herramientas.d-block.d-md-none Ciclo de vida del producto
 
     p.mb-3(data-aos="zoom-down-right") Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa; Está constituido por cuatro fases plenamente identificables.
     p.mb-5(data-aos="zoom-down-right") Reconozcamos en qué consisten cada fase:
@@ -428,7 +430,7 @@
           .col-12.col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/tema3-16.png', alt='')
-      .py-4.py-md-5(titulo="Fase de Crecimiento")
+      .py-4.py-md-5(titulo="Fase de crecimiento")
         .row
           .col-12.col-md-8
             p Esta fase consiste en un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad, además de  estrategias de #[i marketing] que se implementaron, por lo cual se ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
@@ -437,14 +439,14 @@
           .col-12.col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/tema3-17.png', alt='')
-      .py-4.py-md-5(titulo="Fase de Madurez")
+      .py-4.py-md-5(titulo="Fase de madurez")
         .row
           .col-12.col-md-8
             p En esta fase el producto obtiene grandes niveles de ventas en unidades y, en consecuencia, en dinero. También enfrentará gran competencia, por lo que estos niveles de venta podrán reducirse rápidamente. Muchas empresas se suelen estabilizar en esa zona, porque han comprendido las exigencias de los clientes que atienden su oferta adecuadamente. Sin embargo, es probable que la empresa empiece a tener dificultades para crecer en ventas debido a una mayor competencia, a la saturación del mercado, con lo que se dificulta  aumentar las ventas (no hay más clientes a quien vender). Por ello, la empresa debe buscar nuevos mercados o segmentos geográficos, en los que no ha tenido actividad  comercial y avanzar en nuevas ventas. En esta fase la empresa obtiene utilidades sobre las cuales podrá disponer y solventar los gastos propios de la empresa y su actividad, así como disponer de recursos para promover iniciativas de nuevos productos, etc.
           .col-12.col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/tema3-18.png', alt='')
-      .py-4.py-md-5(titulo="Fase de Declive")
+      .py-4.py-md-5(titulo="Fase de declive")
         .row
           .col-12.col-md-8
             p Esta fase se caracteriza por un cambio en las preferencias de compra de los clientes, una menor demanda del producto por cambios en las tendencias o modas, etc., lo que se expresa en la fuerte caída de ventas; de ser este el caso, el declive lo sufre también la competencia por lo que hay que entender que todos los productos tienen una vida limitada (salvo algunas excepciones que se amplían en el tiempo, pero con grandes esfuerzos de mejora), por lo que llega un momento en el que entran a no aportar a la empresa beneficios ni utilidades, sino que exclusivamente cubren sus costos o llegan inclusive a ser subsidiados por la misma empresa. Sea cual fuere la naturaleza del declive en ventas hay dos opciones:
@@ -465,7 +467,8 @@
           img(src='@/assets/curso/temas/tema3/tema3-20.svg', :alt='alt_img_20')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Relación de la Matriz BCG y el Ciclo de vida del producto
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Relación de la Matriz BCG y el Ciclo de vida del producto
+      div.titulo-herramientas.d-block.d-md-none Relación de la Matriz BCG y el Ciclo de vida del producto
 
     p.mb-5(data-aos="zoom-down-right") En la siguiente figura, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG identificando como el crecimiento en ventas se relaciona con la participación de mercado y el tiempo, con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, su clasificación y su ciclo de vida de producto.
 
@@ -485,7 +488,8 @@
           p.mb-0 Tengamos en cuenta que, en la etapa de introducción, los esfuerzos deben ser dinámicos, ágiles, canalizar las inversiones para el posicionamiento y conocimiento, de forma que el producto llegue a los consumidores potenciales, para resolver el interrogante que representan estos productos en la matriz BCG.|
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Herramientas de información Estadística básica
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Herramientas de información Estadística básica
+      div.titulo-herramientas.d-block.d-md-none Herramientas de información Estadística básica
 
     p.mb-4(data-aos="fade-right") Los procesos de gestión como los procesos de diagnóstico empresarial requieren de información y análisis permanente, de tal manera que evidencien el estado actual, la evolución de los mismos, la tendencia y permitan la toma de decisiones. Una de las herramientas que facilita este ejercicio con la información en los procesos es la estadística, que se define como la ciencia dedicada al ordenamiento y análisis de conjuntos de datos para obtener descripciones, explicaciones o predicciones sobre aspectos percibidos y analizados (Gregori, s.f.).
     h3.mb-3(data-aos="fade-right") ¿Cuáles son los tipos de estadística?
@@ -574,11 +578,11 @@
                   td.text-center 112
                 tr
                   th.text-center Frecuencias
-                  td.text-center 44,6%
-                  td.text-center 31,3%
-                  td.text-center 13,4%
-                  td.text-center 10,7%
-                  td.text-center 100,00%
+                  td.text-center 44,6 %
+                  td.text-center 31,3 %
+                  td.text-center 13,4 %
+                  td.text-center 10,7 %
+                  td.text-center 100,00 %
         .col-12.mb-3
           p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
         .col-12.mb-3
@@ -622,13 +626,13 @@
                   td 30
                 tr
                   th.text-center %
-                  td 18.3%
-                  td 6,7%
-                  td 23,3%
-                  td 16,7%
-                  td 13,3%
-                  td 21.7%
-                  td 100,0%
+                  td 18.3 %
+                  td 6,7 %
+                  td 23,3 %
+                  td 16,7 %
+                  td 13,3 %
+                  td 21.7 %
+                  td 100,0 %
         .col-12.mb-3
           p En este caso, la variable continua es el tiempo (meses del primer semestre), entonces, el gerente del restaurante puede identificar el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos semestral en la empresa por ventas. Con esta información, podrá tomar decisiones sobre la disposición de caja y programación de pagos; asimismo, establecerá niveles de metas funcionales, es decir, en periodos de baja estacionalidad, la empresa podrá desarrollar actividades de capacitación o entrenamientos, ya que para su desarrollo, requiere periodos de concentración en estas actividades sin afectar la producción. De igual manera, realizará la implementación de nuevos procesos, tal como se ve para el mes de febrero.
           h3.text-center Histograma del comportamiento de ventas semestrales en una empresa
@@ -737,7 +741,7 @@
                   h4 Indicadores de gestión
                   p.text-small Ejemplos de algunos indicadores de gestión aplicados a cada una de las áreas funcionales de la empresa.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/PDF_Ejemplo_indicadores_de_gestion.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3_PDF_Ejemplo_indicadores_de_gestion.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

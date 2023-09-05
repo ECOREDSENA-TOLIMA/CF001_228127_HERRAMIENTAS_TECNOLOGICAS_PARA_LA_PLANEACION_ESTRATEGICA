@@ -60,7 +60,8 @@
           img(src='@/assets/curso/temas/tema1/tema1-01-b.svg', :alt='alt_img_01')
       
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Según la destinación de los recursos y utilidad
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según la destinación de los recursos y utilidad
+      div.titulo-herramientas.d-block.d-md-none Según la destinación de los recursos y utilidad
 
     p.mb-5(data-aos="zoom-down-right") Veamos en qué consiste esta clasificación:
 
@@ -155,7 +156,8 @@
                 th.text-center > a 30.000 SMMLV
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Según el régimen jurídico al que pertenecen  
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según el régimen jurídico al que pertenecen  
+      div.titulo-herramientas.d-block.d-md-none Según el régimen jurídico al que pertenecen  
 
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
@@ -187,7 +189,8 @@
           img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Según el nivel de aportes y participación  
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según el nivel de aportes y participación  
+      div.titulo-herramientas.d-block.d-md-none Según el nivel de aportes y participación  
 
     p.mb-3(data-aos="zoom-down-right") Se refiere a las empresas que se configuran a partir de la colocación de capitales o desde la participación de personas, entre las cuales se encuentran:
 
@@ -209,7 +212,8 @@
         p Se conforman por personas y su aporte en capital. Por ejemplo, las sociedades limitadas, donde figuran las personas que conforman la empresa y cuánto es su aporte en dinero.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Según su objeto de actividad  
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según su objeto de actividad  
+      div.titulo-herramientas.d-block.d-md-none Según su objeto de actividad  
 
     p.mb-5(data-aos="zoom-down-right") Veamos cuál es la clasificación que corresponde a esta modalidad:
 
@@ -230,7 +234,8 @@
           img(src='@/assets/curso/temas/tema1/tema1-07-sm.svg', :alt='alt_img_07')
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Según el sector productivo 
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según el sector productivo 
+      div.titulo-herramientas.d-block.d-md-none Según el sector productivo 
 
     p.mb-3(data-aos="zoom-down-right") En Colombia, la economía se estructura a partir del tipo de proceso de producción que desarrollan las organizaciones empresariales, las cuales, desde un enfoque convencional, se dividen en tres sectores: 
       
@@ -272,7 +277,8 @@
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-11-b.svg', :alt='alt_img_11') 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Según el ámbito territorial de operación
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según el ámbito territorial de operación
+      div.titulo-herramientas.d-block.d-md-none Según el ámbito territorial de operación
 
     p.mb-5(data-aos="zoom-down-right") En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directa, por lo cual pueden ser:
 
@@ -307,9 +313,7 @@ export default {
 Organizaciones públicas: aquellas organizaciones en las que los recursos son de naturaleza pública o del gobierno nacional o local de las regiones donde opera.
 Organizaciones mixtas: aquellas en las que los recursos provienen de la asociación de particulares y del gobierno nacional o local.
 `,
-    alt_img_11: `Sector primario, dedicado a actividades que se obtienen directamente de la naturaleza, como: agricultura, ganadería, pesca y minería.
-Sector secundario, dedicado a actividades que transforman materias primas en productos elaborados, como: la industria y la construcción.
-Sector terciario o de servicios, dedicado a actividades que proporcionan servicios, como: el comercio, el turismo, la sanidad y la educación.
+    alt_img_11: `Los sectores económicos se clasifican en: Sector primario, dedicado a actividades que se obtienen directamente de la naturaleza, como: agricultura, ganadería, pesca y minería. Sector secundario, dedicado a actividades que transforman materias primas en productos elaborados, como: la industria y la construcción. Sector terciario o de servicios, dedicado a actividades que proporcionan servicios, como: el comercio, el turismo, la sanidad y la educación.
 `,
     alt_img_07: `Comerciales: aquellas empresas que se dedican a la intermediación comercial exclusivamente; su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir, compra y venta de mercancías.
 Industriales o de Manufactura: corresponde a las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.

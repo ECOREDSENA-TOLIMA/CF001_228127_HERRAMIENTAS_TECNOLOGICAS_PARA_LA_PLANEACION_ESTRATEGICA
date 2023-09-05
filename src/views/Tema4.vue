@@ -22,7 +22,8 @@
     p.mb-5(data-aos="zoom-down") Es uno de los modelos integrales que permite la fijación de objetivos empresariales a partir de un ejercicio de diagnóstico; determina objetivos y medidas estratégicas en las empresas con el fin de mantener su capacidad competitiva. Este modelo parte del reconocimiento de aspectos fundamentales como la misión y la visión, preceptos inspiradores del quehacer empresarial, y a partir de allí, determina la condición actual, fijando planes de acción en conformidad a las oportunidades y amenazas, fortalezas y debilidades.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Técnica análisis DOFA
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Técnica análisis DOFA
+      div.titulo-herramientas.d-block.d-md-none Técnica análisis DOFA
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-7(data-aos="fade-left")
@@ -128,8 +129,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Modelo de Balanced Scorecard para la gestión empresarial</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema4/tema4-04-md.svg', alt='')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema4/tema4-04-sm.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema4/tema4-04-md.svg', alt='En la figura 9, se puede identificar la interacción que estas cuatro perspectivas tienen alrededor de la visión y misión empresarial, (Perspectiva Financiera, Perspectiva proceso internos, Perspectiva Procesos aprendizaje, Perspectiva Clientes).')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema4/tema4-04-sm.svg', alt='En la figura 9, se puede identificar la interacción que estas cuatro perspectivas tienen alrededor de la visión y misión empresarial, (Perspectiva Financiera, Perspectiva proceso internos, Perspectiva Procesos aprendizaje, Perspectiva Clientes).') 
 
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -197,7 +198,7 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Esquema de mapa de procesos</i>
         figure
-          img(src='@/assets/curso/temas/tema4/tema4-07.svg', alt='') 
+          img(src='@/assets/curso/temas/tema4/tema4-07.svg', alt='En la figura 10, se muestra el esquema de mapa de procesos: estratégicos, misionales u operacionales y procesos de apoyo.') 
         .d-block.d-md-none
           a.anexo.mb-4(:href="obtenerLink('/downloads/tema4-07.svg')" target="_blank")
             .anexo__icono

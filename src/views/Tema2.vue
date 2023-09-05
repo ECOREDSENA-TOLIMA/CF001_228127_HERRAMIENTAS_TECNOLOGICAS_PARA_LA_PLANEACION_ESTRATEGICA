@@ -164,12 +164,13 @@
                   p.text-small Le invitamos a revisar el siguiente ejemplo de organización de áreas, actividades y recursos en una empresa, que describe la técnica para la asignación y estimación de recursos y el desarrollo de las actividades.
                   p.text-small Asimismo, si desea tener mayor detalle, consulte el documento #[em Presupuesto de recursos administrativos por área o proceso], en el que puede evidenciar un modelo de organización. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_presupuesto_recursos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_presupuesto_recursos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Recursos de Inventario
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Recursos de Inventario
+      div.titulo-herramientas.d-block.d-md-none Recursos de Inventario
 
     p.mb-5(data-aos="fade-down") Entre los recursos físicos de activos que posee la empresa para su operación se encuentran los inventarios, que se refieren a las existencias de recursos para transformación, venta, uso o cualquier otro aspecto con fines operativos. Se encuentran almacenados en bodega, a espera de ser utilizados; regularmente se ordenan de la siguiente manera según su clase: 
 
@@ -209,9 +210,38 @@
     p.mb-3(data-aos="fade-down") La dirección, como función del proceso administrativo, consiste en dinamizar la empresa y poner en operación y ejecución la planeación (conjunto de iniciativas estratégicas para lograr los objetivos previstos). Una vez que se completa el proceso de planeación y de organización, se cumplirá con la disposición de los recursos para el desarrollo de las actividades, lo que presupone contratación de talento humano si se requiere, compra de recursos, arrendamiento o reorganización de tierras lotes, bodegas, ajuste de las asignaciones de las actividades de manera formal, de darse a lugar. La ejecución requiere de funciones como la comunicación para la coordinación y herramientas tecnológicas que faciliten este proceso, el liderazgo para hacer que las personas desarrollen sus labores con motivación y diligencia, en la oportunidad requerida.
     p.mb-5(data-aos="fade-down") Veamos el siguiente recurso que nos ilustra sobre los estilos de dirección empresarial:
 
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta--container.row.mb-5(data-aos="fade-down")
+      .col-md.tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema2/tema2-06.svg', alt='')
+        h4.text-center Autocrático
+        p.mb-0 ● La toma de decisiones es #[b centralizada.] 
+        p.mb-0 ● Hay un #[b bajo] compromiso del empleado. 
+        p ● Hay un muy #[b alto] compromiso del gerente. 
+        p Recomendable cuando la empresa se encuentra en crisis y se requiere una orientación directa.
+      .col-md.tarjeta.color-acento-botones.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema2/tema2-07.svg', alt='')
+        h4.text-center Liberal
+        p.mb-0 ● La toma de decisiones es #[b delegada] y #[b descentralizada.] 
+        p.mb-0 ● Hay un #[b alto] compromiso del empleado. 
+        p ● Hay un #[b alto] compromiso del gerente. 
+        p Recomendable cuando la empresa se encuentra en consolidada y permite la delegación de funciones.
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema2/tema2-08.svg', alt='')
+        h4.text-center Democrático
+        p.mb-0 ● La toma de decisiones es por #[b concesión.] 
+        p.mb-0 ● Hay un #[b alto] compromiso del empleado. 
+        p ● Hay un #[b alto] compromiso del gerente. 
+        p Recomendable cuando la empresa se encuentra en consolidada, pero la toma de decisiones es demorada.
+
 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
