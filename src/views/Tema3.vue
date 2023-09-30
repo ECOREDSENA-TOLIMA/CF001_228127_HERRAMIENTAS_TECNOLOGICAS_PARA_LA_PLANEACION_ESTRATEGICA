@@ -355,6 +355,8 @@
 
     .row.justify-content-center.mb-5
       .col-12.col-md-11.col-lg-10(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Participación de mercado frente a los considerados competencia</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/tema3-14-md.svg', alt='')
           img.d-block.d-md-none(src='@/assets/curso/temas/tema3/tema3-14-sm.svg', alt='') 
@@ -557,7 +559,9 @@
           p En el siguiente ejemplo se puede observar su enfoque de uso:
           p En una empresa agrícola, el gerente desea saber cómo es el consumo y venta de verduras; para ello, recurre al análisis estadístico del promedio de ventas de estos recursos, lo que le servirá como parámetro para tomar decisiones.
         .col-12.col-lg-10.mb-3
-          h3.text-center Concentración del estado de cartera por ventas (millones)
+          //- h3.text-center Concentración del estado de cartera por ventas (millones)
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Concentración del estado de cartera por ventas (millones)</i>
           .tabla-a.color-primario.mb-4
             table
               thead
@@ -586,9 +590,11 @@
         .col-12.mb-3
           p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
         .col-12.mb-3
-          h4.mb-4.text-center Diagrama de estratificación del estado de cartera por ventas a clientes
+          //- h4.mb-4.text-center Diagrama de estratificación del estado de cartera por ventas a clientes
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Diagrama de estratificación del estado de cartera por ventas a clientes</i>
           figure
-            img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='')
+            img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='En la figura 9 se muestra el diagrama de  concentración del estado de cartera por ventas en millones de pesos.')
           .d-block.d-md-none
             a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-23.svg')" target="_blank")
               .anexo__icono
@@ -599,9 +605,11 @@
         .col-md-12.mb-3.mb-md-0
           p Es la distribución del comportamiento que denota la distribución de las frecuencias a lo largo de la variable continua. Veamos el ejemplo:
           p En el caso de las ventas en un semestre, el gerente desea saber cómo es su estacionalidad o comportamiento típico, para lo cual presenta la siguiente información.
-        .col-12.mb-3
-          h3.text-center Registro del nivel de ventas por mes en primer semestre
+        //- .col-12.mb-3
+        //-   h3.text-center Registro del nivel de ventas por mes en primer semestre
         .col-12.col-lg-10.mb-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Registro del nivel de ventas por mes en primer semestre</i>
           .tabla-a.color-primario.mb-4
             table
               thead
@@ -635,10 +643,12 @@
                   td 100,0 %
         .col-12.mb-3
           p En este caso, la variable continua es el tiempo (meses del primer semestre), entonces, el gerente del restaurante puede identificar el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos semestral en la empresa por ventas. Con esta información, podrá tomar decisiones sobre la disposición de caja y programación de pagos; asimismo, establecerá niveles de metas funcionales, es decir, en periodos de baja estacionalidad, la empresa podrá desarrollar actividades de capacitación o entrenamientos, ya que para su desarrollo, requiere periodos de concentración en estas actividades sin afectar la producción. De igual manera, realizará la implementación de nuevos procesos, tal como se ve para el mes de febrero.
-          h3.text-center Histograma del comportamiento de ventas semestrales en una empresa
+          //- h3.text-center Histograma del comportamiento de ventas semestrales en una empresa
         .col-12.mb-3
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Histograma del comportamiento de ventas semestrales en una empresa</i>
           figure
-            img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='')
+            img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='En la figura 10 se muestra el histograma del comportamiento de ventas semestrales en una empresa')
           .d-block.d-md-none
             a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-24.svg')" target="_blank")
               .anexo__icono
@@ -650,8 +660,8 @@
           p Es otro esquema de representación gráfica estadística que busca descomponer una variable en sus diferentes categorías, mostrando la cantidad de frecuencia o casos, evidenciando cuanto del total corresponde cada categoría dentro de la variable. Veamos el ejemplo:
           p En un  restaurante se desea conocer el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente recibe de su administrador la siguiente información.
         .col-12.col-lg-10.mb-3
-          .titulo-sexto.color-primario
-            p.titulo.pb-0.mb-0 Toneladas de verduras vendidas por tipo de mercado.
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 #[b Tabla 7.] #[em Toneladas de verduras vendidas por tipo de mercado]
           .tabla-a.color-primario.mb-4
             table
               thead
@@ -675,10 +685,10 @@
                   td Total: clientes regionales
                   td 50
         .col-12.col-md-10.mb-3
-          .titulo-sexto.color-primario
-            p.titulo.pb-0.mb-0 Distribución de clientes de la empresa por región de operación
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 #[b Figura 11.] #[em Distribución de clientes de la empresa por región de operación]
           figure
-            img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='')
+            img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='En la figura 11 se muestra la distribución de clientes de la empresa por región de operación.')
           .d-block.d-md-none
             a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-25.svg')" target="_blank")
               .anexo__icono

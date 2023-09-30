@@ -40,6 +40,8 @@
           .row(titulo="Factores internos")
             .col-12.mb-4.mb-md-0
               p Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento en que se evalúa. Recordemos que su particularidad está en que su estado depende de los esfuerzos de la empresa, por tanto, son controlables.
+              .titulo-sexto.color-acento-contenido
+                p.titulo.pb-0.mb-0 <b>Tabla 8. </b> <i>Fortalezas y debilidades</i>
               .tabla-a.color-primario.mb-4
                 table
                   thead
@@ -57,6 +59,8 @@
           .row(titulo="Factores externos")
             .col-12.mb-4.mb-md-0
               p Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento en que se evalúa. En este caso, su particularidad está en que su estado NO depende de la empresa, sino que están en el entorno en que ésta ópera, por tanto, NO son controlables.
+              .titulo-sexto.color-acento-contenido
+                p.titulo.pb-0.mb-0 <b>Tabla 9. </b> <i>Oportunidades y mejoras</i>
               .tabla-a.color-primario.mb-4
                 table
                   thead
@@ -77,9 +81,9 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-11(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Estructura de la Matriz DOFA</i>
+          p.titulo.pb-0.mb-0 <b>Figura 12. </b> <i>Estructura de la Matriz DOFA</i>
         figure
-          img(src='@/assets/curso/temas/tema4/tema4-03.svg', alt='')
+          img(src='@/assets/curso/temas/tema4/tema4-03.svg', alt='En la figura 12, se muestra la estructura de la matriz DOFA, identificando los factores endógenos y exógenos.')
         .d-block.d-md-none
           a.anexo.mb-4(:href="obtenerLink('/downloads/tema4-03.svg')" target="_blank")
             .anexo__icono
@@ -127,10 +131,10 @@
     .row.justify-content-center.mb-5
       .col-12.col-lg-11(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Modelo de Balanced Scorecard para la gestión empresarial</i>
+          p.titulo.pb-0.mb-0 <b>Figura 13. </b> <i>Modelo de Balanced Scorecard para la gestión empresarial</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema4/tema4-04-md.svg', alt='En la figura 9, se puede identificar la interacción que estas cuatro perspectivas tienen alrededor de la visión y misión empresarial, (Perspectiva Financiera, Perspectiva proceso internos, Perspectiva Procesos aprendizaje, Perspectiva Clientes).')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema4/tema4-04-sm.svg', alt='En la figura 9, se puede identificar la interacción que estas cuatro perspectivas tienen alrededor de la visión y misión empresarial, (Perspectiva Financiera, Perspectiva proceso internos, Perspectiva Procesos aprendizaje, Perspectiva Clientes).') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema4/tema4-04-md.svg', alt='En la figura 13, se puede identificar la interacción que estas cuatro perspectivas tienen alrededor de la visión y misión empresarial, (Perspectiva Financiera, Perspectiva proceso internos, Perspectiva Procesos aprendizaje, Perspectiva Clientes).')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema4/tema4-04-sm.svg', alt='En la figura 13, se puede identificar la interacción que estas cuatro perspectivas tienen alrededor de la visión y misión empresarial, (Perspectiva Financiera, Perspectiva proceso internos, Perspectiva Procesos aprendizaje, Perspectiva Clientes).') 
 
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -196,9 +200,9 @@
     .row.justify-content-center.mb-5
       .col-12.col-lg-11(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Esquema de mapa de procesos</i>
+          p.titulo.pb-0.mb-0 <b>Figura 14. </b> <i>Esquema de mapa de procesos</i>
         figure
-          img(src='@/assets/curso/temas/tema4/tema4-07.svg', alt='En la figura 10, se muestra el esquema de mapa de procesos: estratégicos, misionales u operacionales y procesos de apoyo.') 
+          img(src='@/assets/curso/temas/tema4/tema4-07.svg', alt='En la figura 14, se muestra el esquema de mapa de procesos: estratégicos, misionales u operacionales y procesos de apoyo.') 
         .d-block.d-md-none
           a.anexo.mb-4(:href="obtenerLink('/downloads/tema4-07.svg')" target="_blank")
             .anexo__icono

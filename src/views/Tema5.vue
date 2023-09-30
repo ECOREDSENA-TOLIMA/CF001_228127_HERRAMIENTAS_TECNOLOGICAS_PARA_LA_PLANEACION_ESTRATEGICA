@@ -66,6 +66,8 @@
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
       .col-12.col-lg-10.col.md-11.mb-4.mb-md-0
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 10. </b> <i>Diferencias entre la familia de normas ISO 9000</i>
         .tabla-a.color-primario.mb-4
           table
             thead
