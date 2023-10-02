@@ -60,7 +60,7 @@
             .col-12.mb-4.mb-md-0
               p Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento en que se evalúa. En este caso, su particularidad está en que su estado NO depende de la empresa, sino que están en el entorno en que ésta ópera, por tanto, NO son controlables.
               .titulo-sexto.color-acento-contenido
-                p.titulo.pb-0.mb-0 <b>Tabla 9. </b> <i>Oportunidades y mejoras</i>
+                p.titulo.pb-0.mb-0 <b>Tabla 9. </b> <i>Oportunidades y amenazas</i>
               .tabla-a.color-primario.mb-4
                 table
                   thead
