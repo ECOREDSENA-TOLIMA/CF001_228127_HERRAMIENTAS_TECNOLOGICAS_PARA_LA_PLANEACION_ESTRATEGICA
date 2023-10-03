@@ -594,7 +594,7 @@
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Diagrama de estratificación del estado de cartera por ventas a clientes</i>
           figure
-            img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='En la figura 9 se muestra el diagrama de  concentración del estado de cartera por ventas en millones de pesos.')
+            img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='Figura 9. Diagrama de estratificación del estado de cartera por ventas a clientes donde el 50 % de la cartera equivale al 44,6 % siendo de tipo corriente, el 35 % equivale al 31.3 % %l 31.3 % y corresponde a 30 días, el 15 % de la cartera corresponde a 13.4 % y es de 60 días y el 12 % de la cartera corresponde al 10.7 % y corresponde a 90 días.')
           .d-block.d-md-none
             a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-23.svg')" target="_blank")
               .anexo__icono
@@ -648,7 +648,7 @@
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Histograma del comportamiento de ventas semestrales en una empresa</i>
           figure
-            img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='En la figura 10 se muestra el histograma del comportamiento de ventas semestrales en una empresa')
+            img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='Figura 10. Histograma del comportamiento de ventas semestrales en una empresa donde las ventas del mes de enero fueron 55 correspondientes al 18.3 % presentando un incremento porcentual del 5 % en el mes de marzo con 70 ventas siendo su pico más alto, para el mes de junio tuvo 65 ventas correspondientes al 21.7 %. Así mismo, se evidencia que el pico más bajo en las ventas fue en el mes de febrero con 20 ventas equivalentes al 6.7 % del total de las ventas del semestre.')
           .d-block.d-md-none
             a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-24.svg')" target="_blank")
               .anexo__icono
@@ -688,7 +688,7 @@
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0 #[b Figura 11.] #[em Distribución de clientes de la empresa por región de operación]
           figure
-            img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='En la figura 11 se muestra la distribución de clientes de la empresa por región de operación.')
+            img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='Figura 11. Distribución de clientes de la empresa por región de operación donde el departamento de Cundinamarca tiene mayor representación con 16 clientes equivalentes al 32 %, Antioquia el 30 % equivalente a 15 clientes, Tolima el 22 % correspondiente a 11 clientes y Boyacá el 16 % equivalente a 8 clientes para un total de 49 clientes.')
           .d-block.d-md-none
             a.anexo.mb-4(:href="obtenerLink('/downloads/tema3-25.svg')" target="_blank")
               .anexo__icono
