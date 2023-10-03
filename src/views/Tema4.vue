@@ -108,7 +108,7 @@
       .py-4.py-md-5(titulo="Financiera")
         .row
           .col-12
-            p Esta perspectiva de la empresa busca evidenciar el nivel de respuesta a las expectativas de los inversionistas o socios de la empresa. Además, busca verificar y hacer seguimiento al valor para ellos mediante indicadores, beneficio o utilidad, crecimiento de ingresos por ventas, crecimiento que reflejan el comportamiento operativo.
+            p Esta perspectiva de la empresa busca evidenciar el nivel de respuesta a las expectativas de los inversionistas o socios de la empresa. Además, busca verificar y hacer seguimiento al valor para ellos mediante indicadores de beneficio o utilidad, crecimiento de ingresos por ventas, crecimiento que reflejan el comportamiento operativo.
       .py-4.py-md-5(titulo="Enfoque al cliente")
         .row
           .col-12

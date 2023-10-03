@@ -249,11 +249,11 @@ export default {
     },
   ],
   referencias: [
-    {
-      referencia:
-        'ATA-Autónomos-Federación Nacional de Asociaciones de Trabajadores Autónomos (2021, mayo). Diagnóstico Empresarial en tiempos de Covid-19. ',
-      link: 'https://ata.es/dudas-covid19/',
-    },
+    // {
+    //   referencia:
+    //     'ATA-Autónomos-Federación Nacional de Asociaciones de Trabajadores Autónomos (2021, mayo). Diagnóstico Empresarial en tiempos de Covid-19. ',
+    //   link: 'https://ata.es/dudas-covid19/',
+    // },
     {
       referencia:
         'Beltrán Duque, A y Anzola Morales, O. L. (2013). Mejorando la competitividad de la PYME. Ediciones Universidad Externado de Colombia.',
@@ -289,6 +289,12 @@ export default {
       referencia:
         'Rodríguez, D. (2012). Diagnostico organizacional (4ta Edición ed.). México, D.F.: Alfa Omega Grupo Editor, S.A.',
       link: '',
+    },
+    {
+      referencia:
+        'Tabares P. Alejandro. (s.f.) Transformación empresarial pospandemia: retos Organizacionales posteriores a una pandemia que Cambió los paradigmas de gestión. Universidad San Buenaventura. Tendencias. ',
+      link:
+        'https://minas.medellin.unal.edu.co/images/transformacion-pospandemia.pdf',
     },
     {
       referencia:

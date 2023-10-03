@@ -125,7 +125,7 @@
                   h4 Norma ISO 9001
                   p.text-small Para ampliar sobre los aspectos propios de cada enfoque y la manera de aplicación según el enfoque de ciclo PHVA, con el cual debe operar la norma, se invita a consultar el anexo: Norma ISO 9001.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://colaboracion.dnp.gov.co/CDT/Normograma/NORMA%20ISO%209001%202015.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es" target="_blank")
                     span Link
                     i.fas.fa-link
 
