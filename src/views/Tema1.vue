@@ -280,7 +280,7 @@
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según el ámbito territorial de operación
       div.titulo-herramientas.d-block.d-md-none Según el ámbito territorial de operación
 
-    p.mb-5(data-aos="zoom-down-right") En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directa, por lo cual pueden ser:
+    p.mb-5(data-aos="zoom-down-right") En este sentido, las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directa, por lo cual pueden ser:
 
     TabsA.color-acento-botones.mb-4(data-aos="zoom-down-right")
       .tarjeta.tarjeta--azul.p-4(titulo="Locales")
@@ -295,7 +295,7 @@
         p Aquellas empresas que pueden tener varias áreas o plantas productivas, pero su comercialización cubre la mayor parte de los municipios y ciudades del país, Por ejemplo, Postobón que cuenta con varias plantas embotelladoras en el país para cubrir los diferentes territorios a nivel comercial.
       .tarjeta.tarjeta--azul.p-4(titulo="Multinacionales")
         h4 Multinacionales
-        p Son las empresas que tienen presencia y desarrollo de actividad en otros países, aunque son de origen colombiano, pueden desarrollar industria y comercialización de productos en otros países; por ejemplo, Colombina S,A., que desarrolla actividades industriales en Colombia y tiene subsidiarias en Guatemala y España. Exporta a más de 50 países del mundo y en algunos tiene puntos propios de venta.
+        p Son las empresas que tienen presencia y desarrollo de actividad en otros países, aunque son de origen colombiano, pueden desarrollar industria y comercialización de productos en otros países; por ejemplo, Colombina S.A., que desarrolla actividades industriales en Colombia y tiene subsidiarias en Guatemala y España. Exporta a más de 50 países del mundo y en algunos tiene puntos propios de venta.
 
     p.mb-5(data-aos="zoom-down-right") Una misma empresa puede pertenecer a varias clasificaciones, por ejemplo, puede ser privada, con ánimo de lucro, regional, industrial, de régimen limitado y mediana empresa. Así mismo, pueden existir otras formas de clasificar las organizaciones, lo que permite a los emprendedores identificar cuál es el criterio en el que se promueve la asociación organizacional. 
 

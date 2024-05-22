@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Conceptos claves de las organizaciones y su gestión administrativa 
-        p.mb-4 #[b Objetivo] Fortalecer los conceptos relacionados con la gestión en las empresas, los modelos de gestión, iniciativas estratégicas y las actividades empresariales. 
+        p.mb-4 #[b Objetivo:] fortalecer los conceptos relacionados con la gestión en las empresas, los modelos de gestión, iniciativas estratégicas y las actividades empresariales. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

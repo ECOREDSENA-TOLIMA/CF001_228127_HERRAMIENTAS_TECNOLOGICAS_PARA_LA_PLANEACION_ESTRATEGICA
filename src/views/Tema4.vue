@@ -141,7 +141,7 @@
       h2 4.3 Gestión Basada en Procesos
 
     p.mb-3(data-aos="fade-down") Convencionalmente, las organizaciones empresariales se han estructurado desde una concepción por departamentos o áreas funcionales, por la afinidad de las actividades, lo que dificulta tanto las comunicaciones en la agregación de los valores de una a otra función como la construcción y demandas hacia los clientes; este enfoque de gestión ha permitido definir estructuras a partir de jerarquización de cargos, pero el funcionamiento de la empresa, los flujos de información y comunicación interna o las relaciones con los clientes, no se ven reflejados con absoluta claridad y fluidez.
-    p.mb-3(data-aos="fade-down") La #[strong Gestión Basada en Procesos] percibe a la empresa u organización como un conjunto de sistemas interrelacionado de procesos y subprocesos de diferente índole, que contribuyen conjuntamente a incrementar la satisfacción de los clientes. Es un modelo de gestión alternativo al modelo tradicional caracterizado por estructuras jerárquicas meramente funcionales que describen agregaciones de valor, de manera desarticulada, que depende del paso de áreas a áreas funcionales. 
+    p.mb-3(data-aos="fade-down") La #[strong Gestión Basada en Procesos] percibe a la empresa u organización como un conjunto de sistemas interrelacionados de procesos y subprocesos de diferente índole, que contribuyen conjuntamente a incrementar la satisfacción de los clientes. Es un modelo de gestión alternativo al modelo tradicional caracterizado por estructuras jerárquicas meramente funcionales que describen agregaciones de valor, de manera desarticulada, que depende del paso de áreas a áreas funcionales. 
     p.mb-5(data-aos="fade-down") Entonces, ¿cuál es la diferencia de la gestión de procesos frente al modelo tradicional?
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-right")
@@ -153,7 +153,7 @@
           .bloque-texto-g__texto.p-3
             p.mb-0 La #[strong Gestión por Procesos] es la forma de gestionar las organizaciones basándose en los procesos que desarrolla la empresa, pero ordenados como una secuencia de actividades orientadas a generar un valor añadido continuo, para lograr los resultados deseados, con lo cual es posible la satisfacción a los requerimientos técnicos y específicos que los clientes han planteado de manera mucho más eficiente y eficaz, lo que implica una concentración en los procesos propiamente dichos y no en la estructura jerárquica y de protocolos de comunicación entre áreas funcionales. 
 
-    p.mb-3(data-aos="fade-down") Esto es, porque la calidad de los productos o servicios como la satisfacción del cliente dependen de tales procesos, es decir, son una consecuencia del trabajo bien hecho y de una agregación adecuada y oportuna de valores por parte de la empresa. En este sentido, el modelo de gestión por procesos, requiere una estructura organizacional que parte de la clasificación de los procesos que adelanta la empresa. A esta estructura se le asignan equipos de trabajo gestionados por un líder de proceso quien coordina las actividades internas y externas con otros grupos de procesos.
+    p.mb-3(data-aos="fade-down") Esto es, porque la calidad de los productos o servicios, como la satisfacción del cliente, dependen de tales procesos, es decir, son una consecuencia del trabajo bien hecho y de una agregación adecuada y oportuna de valores por parte de la empresa. En este sentido, el modelo de gestión por procesos, requiere una estructura organizacional que parte de la clasificación de los procesos que adelanta la empresa. A esta estructura se le asignan equipos de trabajo gestionados por un líder de proceso, quien coordina las actividades internas y externas con otros grupos de procesos.
     p.mb-3(data-aos="fade-down") ¿Cuáles son las características de la Gestión Basada en Procesos?
     p.mb-3(data-aos="fade-down") En este enfoque, los objetivos que define la organización empresarial se fijan desde el aporte que los procesos puedan obtener o dar.
     p.mb-5(data-aos="fade-down") Veamos el siguiente ejemplo:
@@ -228,10 +228,10 @@
         p Son los que definen el cuerpo directivo de la empresa y representan los intereses de la junta de socios o junta directiva, es decir, a dónde se quiere llegar en su visión, en la misión en sí, en los tipos de actividad que realizarán, por ende, en los objetivos que, por lo general, definen lineamientos estratégicos comunes a la mayoría de las empresas como, por ejemplo, los mecanismos de mercadeo, la investigación y desarrollo de productos o servicios en una ruta de desarrollo empresarial y de mercado, la construcción de la cultura de calidad, las comunicaciones o difusión, entre otros. Cada empresa tiene sus propios procesos estratégicos de los cuales dependerán los procesos misionales.
       .tarjeta.color-primario.p-4(titulo="Procesos misionales u operativos")
         h4 Procesos misionales u operativos
-        p Son aquellos que permiten recogen las necesidades de los clientes y convierten en realidad los bienes, productos o servicios que oferta la empresa, por ende, son los que satisfacen las necesidades tácitamente a los clientes.
+        p Son aquellos que permiten recoger las necesidades de los clientes y convierten en realidad los bienes, productos o servicios que oferta la empresa, por ende, son los que satisfacen las necesidades tácitamente a los clientes.
       .tarjeta.color-primario.p-4(titulo="Procesos de apoyo")
         h4 Procesos de apoyo
-        p Son los procesos que soportan la operación de la empresa, son esenciales para su funcionamiento, así no se relacionan muchas veces con el bien producto o servicio directamente. En este tipo se encuentran los procesos de recursos humanos, de sistemas y procesamiento de información, de compras, almacenamiento, contabilidad, entre otros.
+        p Son los procesos que soportan la operación de la empresa, son esenciales para su funcionamiento, así no se relacionan muchas veces con el bien, producto o servicio directamente. En este tipo se encuentran los procesos de recursos humanos, de sistemas y procesamiento de información, de compras, almacenamiento, contabilidad, entre otros.
 
     p.mb-5(data-aos="fade-down") Ahora, conozcamos los pasos que se deben seguir para aplicar el modelo de gestión por procesos:
 
@@ -249,7 +249,7 @@
             p.mb-0 - Tiempo para la obtención de los resultados
             p - Costos, entre otros.
           .tarjeta.color-acento-botones.p-3(x="77%" y="88%" numero="+")
-            p Determinar los recursos que se necesitan para el desarrollo de las actividades del proceso y producir las salidas o productos entre los recursos están: materias primas, insumos y suministros, maquinaria y equipo, herramientas, información, etc.
+            p Determinar los recursos que se necesitan para el desarrollo de las actividades del proceso y producir las salidas o productos, entre los recursos están: materias primas, insumos y suministros, maquinaria y equipo, herramientas, información, etc.
           .tarjeta.color-acento-botones.p-3(x="50%" y="99%" numero="+")
             p Definir las competencias profesionales u operativas que requiere el método del proceso.
           .tarjeta.color-acento-botones.p-3(x="23%" y="88%" numero="+")

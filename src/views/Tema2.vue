@@ -19,7 +19,7 @@
               img(src='@/assets/curso/temas/tema2/tema2-01.svg', alt='')
           .tarjeta.color-acento-botones.p-3(x="36%" y="5%" numero="+")
             p Identificación y definición del problema.
-            p Qué, cuánto y cómo producir. Señala soluciones y alternativas y diseña políticas, medios de acción y procedimientos.
+            p Qué, cuánto y cómo producir. Señala soluciones, alternativas y diseña políticas, medios de acción y procedimientos.
           .tarjeta.color-acento-botones.p-3(x="36%" y="20%" numero="+")
             p Distribución del trabajo, creación de áreas funcionales; determinación de grupos de actividades por cargos, nueva estructura; asignación de recursos por cargo.
           .tarjeta.color-acento-botones.p-3(x="36%" y="35%" numero="+")
@@ -43,10 +43,10 @@
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-angle-right
-            | Parte de la identificación de las necesidades, problema u objetivos
+            | Parte de la identificación de las necesidades, problema u objetivos.
           li.mb-0
             i.fas.fa-angle-right
-            | Identifica el estado actual de la empresa
+            | Identifica el estado actual de la empresa.
           li.mb-0
             i.fas.fa-angle-right
             | Reconoce las alternativas para lograr superar la necesidad, el fin o el objetivo. 
@@ -100,7 +100,7 @@
             | Identificar el talento humano requerido en función de las actividades, lo que conlleva una mejor comprensión de la empresa y del quehacer ordinario.
           li.mb-0
             i.fas.fa-angle-right
-            | Definir el esquema de comunicaciones y de división del trabajo dando como resultado las áreas funcionales de una empresa.
+            | Definir el esquema de comunicaciones y de división del trabajo, dando como resultado las áreas funcionales de una empresa.
     
     p.mb-4(data-aos="fade-down") Esta estructuración deriva en una jerarquización de los roles de la empresa, es decir, quiénes toman decisiones, quiénes coordinan las operaciones y quiénes ejecutan o verifican las acciones propiamente dichas.
     p.mb-4(data-aos="fade-down") Veamos el siguiente esquema: 
@@ -149,7 +149,7 @@
       h3 Organización y adecuación de recursos empresariales
 
     p.mb-4(data-aos="fade-down") El concepto de organización se ha usado para el proceso de agrupar y asignar recursos a un área funcional formada de varios cargos, los cuales se interrelacionan mutuamente, pero cada uno tiene unas actividades específicas, que constituyen el personal de una empresa.
-    p.mb-5(data-aos="fade-down") La estimación de los diferentes recursos para operar una empresa parte de las funciones y actividades a realizar, las cuales se agrupan en cargos y estos, a su vez, son ocupados y desarrollados por personas a quienes se les asigna un salario en conformidad a sus capacidades y talentos. Así, los trabajadores necesitarán recursos físicos, técnicos y tecnológicos para el desarrollo de sus labores, por tanto, se deben asignar según corresponda. Algunos recursos no son asignables a un cargo o puesto en sí, sino que son activos de uso general los cuales se suman a las labores funcionales de los trabajadores.
+    p.mb-5(data-aos="fade-down") La estimación de los diferentes recursos para operar una empresa parte de las funciones y actividades a realizar, las cuales se agrupan en cargos y estos, a su vez, son ocupados y desarrollados por personas a quienes se les asigna un salario en conformidad a sus capacidades y talentos. Así, los trabajadores necesitarán recursos físicos, técnicos y tecnológicos para el desarrollo de sus labores, por tanto, se deben asignar según corresponda. Algunos recursos no son asignables a un cargo o puesto en sí, sino que son activos de uso general, los cuales se suman a las labores funcionales de los trabajadores.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
@@ -179,7 +179,7 @@
         .row
           .col-12.mb-4.mb-md-0
             p Conjunto de recursos de capital que tiene la organización para su operación y el trabajo de los individuos. Se clasifican en bienes muebles e inmuebles.
-            p Ejemplo: computadores muebles y escritorios, bodegas, lotes, fincas, etc.
+            p Ejemplo: computadores, muebles y escritorios, bodegas, lotes, fincas, etc.
       .py-4.py-md-5(titulo="Inventario de productos terminados")
         .row
           .col-12.mb-4.mb-md-0
@@ -192,7 +192,7 @@
         .row
           .col-12.mb-4.mb-md-0
             p Se refiere a las materias primas que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente. 
-            p Ejemplo: producción de huevos que no han sido preparados, pesados y embalados. Leche que se encuentra pasteurizada, pero no empacada está en silos.
+            p Ejemplo: producción de huevos que no han sido preparados, pesados y embalados. Leche que se encuentra pasteurizada, pero no empacada, está en silos.
       .py-4.py-md-5(titulo="Inventario de obsoletos")
         .row
           .col-12.mb-4.mb-md-0

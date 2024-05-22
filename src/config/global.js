@@ -90,7 +90,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Modelos de gestión',
+        titulo: 'Modelos administrativos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -100,12 +100,12 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: '<em>Balanced Score Card</em> ',
+            titulo: '<em>Balanced Scorecard</em> (BSC)',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Gestión por procesos',
+            titulo: 'Gestión basa en procesos',
             hash: 't_4_3',
           },
         ],
@@ -323,9 +323,10 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Carlos Fernando Riaño',
-          cargo: 'Experto',
-          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+          nombre: 'Luis Eyder Ortiz',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'María Fernanda Chacón Castro',
@@ -333,7 +334,7 @@ export default {
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
-          nombre: 'Carolina Coca Salazar',
+          nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Asesora Metodológica',
           centro: 'Regional Distrito Capital - Centro de diseño y metrología',
         },
@@ -344,13 +345,23 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrector de Estilo',
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
+          nombre: 'Juan Guillermo Zuluaga Saavedra',
+          cargo: 'Experto Temático',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Humberto Arias Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
           nombre: 'María Inés Machado López',
-          cargo: 'Metodóloga',
+          cargo: 'Asesora Metodológica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -359,7 +370,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Fernando Botero Mendoza',
+          nombre: 'José Yobani Penagos',
           cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -374,13 +385,18 @@ export default {
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Productor y Animador Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Productor y Animador Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oleg Litvin',
-          cargo: 'Animador',
+          cargo: 'Productor y Animador Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -400,7 +416,7 @@ export default {
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

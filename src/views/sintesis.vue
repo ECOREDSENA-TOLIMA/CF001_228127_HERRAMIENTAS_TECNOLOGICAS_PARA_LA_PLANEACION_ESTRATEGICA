@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis del componente formativo “Organizaciones y gestión”, se relacionan los tipos de organizaciones, el proceso administrativo general, los factores y variables a tener en cuenta, los modelos administrativos utilizados y la aplicación de la norma ISO 9001. Todos estos elementos contribuyen a la adecuada gestión que se debe llevar a cabo tanto interna como externamente.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

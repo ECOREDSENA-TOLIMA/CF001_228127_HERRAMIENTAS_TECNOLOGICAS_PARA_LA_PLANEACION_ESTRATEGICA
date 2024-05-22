@@ -25,14 +25,14 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Factores y variables internos
 
-    p.mb-4(data-aos="fade-down") Los factores internos o endógeno son el conjunto de variables o aspectos que impulsan e impactan el comportamiento empresarial, es decir, las actuaciones que dependen de la empresa, por tanto, son absolutamente controlables, identificando fortalezas y debilidades. 
+    p.mb-4(data-aos="fade-down") Los factores internos o endógeno, son el conjunto de variables o aspectos que impulsan e impactan el comportamiento empresarial, es decir, las actuaciones que dependen de la empresa, por tanto, son absolutamente controlables, identificando fortalezas y debilidades. 
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-md-11.mb-5.mb-lg-0(data-aos="fade-left")
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Según Laurence (2014) las fortalezas son las variables empresariales que impactan positivamente y facilitan su sostenibilidad y crecimiento mientras que las debilidades hacen que se pierda competitividad afectando la eficiencia y efectividad empresarial.
+            p.mb-0 Según Laurence (2014), las fortalezas son las variables empresariales que impactan positivamente y facilitan su sostenibilidad y crecimiento mientras que las debilidades hacen que se pierda competitividad afectando la eficiencia y efectividad empresarial.
             i.fas.fa-quote-right
 
     p.mb-5(data-aos="fade-down") Veamos estos factores internos:
@@ -56,7 +56,7 @@
           .tarjeta.color-acento-botones.p-3(x="69%" y="39.5%" numero="+")
             p Se analizan variables como la composición de la planta de personal, su estructura, organización, tipos de contratación, percepción del clima laboral, nivel de salarios.
           .tarjeta.color-acento-botones.p-3(x="20%" y="76.5%" numero="+")
-            p Se estudiarán los estados financieros como el Balance general, estado de resultados, flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
+            p Se estudiarán los estados financieros como el balance general, estado de resultados, flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
           .tarjeta.color-acento-botones.p-3(x="52%" y="76.5%" numero="+")
             p Contar con recursos actualizados como software integrado para lograr un mayor desarrollo, se evalúa el plan de renovación, sustitución y mantenimientos.
 
@@ -246,7 +246,7 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Diagrama de Pareto
 
-    p.mb-5(data-aos="fade-right") Esta herramienta corresponde a un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa. Los pocos vitales son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, asociados en una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa del 70 % al 80 % se concentran en pocas causas y el resto de los múltiples problemas representan del 20 % al 30 % de los casos. En este sentido, la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio, de forma que, al solucionarlos, probablemente se resolverán muchos de los aspectos menores (Gregorí, s.f.). Para una mayor comprensión veamos el siguiente ejemplo:
+    p.mb-5(data-aos="fade-right") Esta herramienta corresponde a un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa. Los pocos vitales son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, asociados en una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa del 70 % al 80 % se concentran en pocas causas y el resto de los múltiples problemas representan del 20 % al 30 % de los casos. En este sentido, la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio, de forma que, al solucionarlos, probablemente se resolverán muchos de los aspectos menores (Gregorí, s.f.). Para una mayor comprensión, a continuación, se presenta el siguiente ejemplo:
 
     .row.justify-content-center.mb-4
       .col-12(data-aos="fade-left")
@@ -277,7 +277,7 @@
                 th.text-center 13,46 %
                 th.text-center 74,36 %
               tr
-                td.text-center No Corresponde 
+                td.text-center No corresponde 
                 td.text-center 15 
                 td.text-center 9,62 %
                 td.text-center 83,97 %
@@ -292,7 +292,7 @@
                 td.text-center 5,13 %
                 td.text-center 95,51 %
               tr
-                td.text-center Mal Facturado
+                td.text-center Mal facturado
                 td.text-center 7
                 td.text-center 4,49 %
                 td.text-center 100,00 %
@@ -346,7 +346,7 @@
         p Son aquellos productos que tienen un rápido crecimiento, pero poca cuota de participación en el mercado, regularmente, porque son nuevos. Se recomienda seguir invirtiéndoles, porque son semillas que crecerán y se convertirán en productos estrella o vacas lecheras. Se tienen que supervisar permanentemente, porque se pueden convertir en productos perros, teniendo en cuenta que las personas consumen al inicio por exploración, pero si no gustan, no recompran, no crecerán.
       .tarjeta.tarjeta--azul.p-4(titulo="Productos Vaca Lechera")
         h4 Productos Vaca Lechera
-        p Son los productos más desarrollados que producen los ingresos más altos en la empresa, están bien posicionados en el mercado, aunque cada vez es más difícil aumentar su crecimiento de ventas, ya que el mercado se encuentra saturado o es inflexible. De los recursos de estos productos se pueden retirar utilidades para la sobrevivencia de la empresa e invertir en los otros productos como Estrellas e incluso interrogantes. 
+        p Son los productos más desarrollados que producen los ingresos más altos en la empresa, están bien posicionados en el mercado, aunque cada vez es más difícil aumentar su crecimiento de ventas, ya que el mercado se encuentra saturado o es inflexible. De los recursos de estos productos se pueden retirar utilidades para la sobrevivencia de la empresa e invertir en los otros productos como estrellas e incluso interrogantes. 
       .tarjeta.tarjeta--azul.p-4(titulo="Productos Perro")
         h4 Productos Perro
         p Estos productos no presentan crecimiento en ventas y tienen baja participación en el mercado frente a lo que se vende en el sector o industria, por ende, no contribuyen en los beneficios de la empresa regularmente, incluso llegan a generar utilidad negativa. En estos casos, se recomienda retirar del portafolio y oferta de productos estas referencias. En ocasiones hay que mantenerlos, ya que representan la tradición de la empresa, tienen el posicionamiento y generan la confianza en los otros productos de la empresa, aun cuando su contribución no es alta, seguramente, fueron vaca lechera, que por cambios en las tendencias de consumo o porque salieron productos para la misma función o servicio con mejor tecnología o eficiencia se quedaron relegados, se podrían desarrollar estos productos, para ver si se recompone su crecimiento. Este tipo de decisiones son las que deben tomar los empresarios al diagnosticar las potencialidades del producto.
@@ -390,7 +390,7 @@
           .tarjeta.color-acento-botones.p-3(x="29%" y="63%" numero="1")
             p Este producto 1 presenta un nivel de participación en el mercado alto superior al del competidor más cercano; sin embargo, presenta un nivel de crecimiento en ventas cercano al 5 %, lo que deja entrever que a la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas, es decir, mayor crecimiento, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender por aumentar el crecimiento en ventas, sino defenderlo.
           .tarjeta.color-acento-botones.p-3(x="37%" y="41%" numero="2")
-            p Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10 %, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
+            p Este producto 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas, lo que lo caracteriza como un producto en la fase de crecimiento. Este es un producto que en magnitud puede manejar más volúmenes que el producto número uno, sin embargo, aún se encuentra en la etapa de crecimiento y por ser mayor al 10 %, se presume que podría mejorar durante un tiempo. Luego, la decisión estratégica es mantener su inversión con el fin de garantizar este propósito, de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.
           .tarjeta.color-acento-botones.p-3(x="63%" y="22.5%" numero="3")
             p El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización, su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15 %, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.
     
@@ -444,7 +444,7 @@
       .py-4.py-md-5(titulo="Fase de madurez")
         .row
           .col-12.col-md-8
-            p En esta fase el producto obtiene grandes niveles de ventas en unidades y, en consecuencia, en dinero. También enfrentará gran competencia, por lo que estos niveles de venta podrán reducirse rápidamente. Muchas empresas se suelen estabilizar en esa zona, porque han comprendido las exigencias de los clientes que atienden su oferta adecuadamente. Sin embargo, es probable que la empresa empiece a tener dificultades para crecer en ventas debido a una mayor competencia, a la saturación del mercado, con lo que se dificulta  aumentar las ventas (no hay más clientes a quien vender). Por ello, la empresa debe buscar nuevos mercados o segmentos geográficos, en los que no ha tenido actividad  comercial y avanzar en nuevas ventas. En esta fase la empresa obtiene utilidades sobre las cuales podrá disponer y solventar los gastos propios de la empresa y su actividad, así como disponer de recursos para promover iniciativas de nuevos productos, etc.
+            p En esta fase, el producto obtiene grandes niveles de ventas en unidades y, en consecuencia, en dinero. También enfrentará gran competencia, por lo que estos niveles de venta podrán reducirse rápidamente. Muchas empresas se suelen estabilizar en esa zona, porque han comprendido las exigencias de los clientes que atienden su oferta adecuadamente. Sin embargo, es probable que la empresa empiece a tener dificultades para crecer en ventas debido a una mayor competencia, a la saturación del mercado, con lo que se dificulta  aumentar las ventas (no hay más clientes a quien vender). Por ello, la empresa debe buscar nuevos mercados o segmentos geográficos, en los que no ha tenido actividad  comercial y avanzar en nuevas ventas. En esta fase, la empresa obtiene utilidades sobre las cuales podrá disponer y solventar los gastos propios de la empresa y su actividad, así como disponer de recursos para promover iniciativas de nuevos productos, etc.
           .col-12.col-md-4
             figure
               img(src='@/assets/curso/temas/tema3/tema3-18.png', alt='')
@@ -487,7 +487,7 @@
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-12.col-lg-10.col-md-11
         .cajon.color-acento-contenido.p-3
-          p.mb-0 Tengamos en cuenta que, en la etapa de introducción, los esfuerzos deben ser dinámicos, ágiles, canalizar las inversiones para el posicionamiento y conocimiento, de forma que el producto llegue a los consumidores potenciales, para resolver el interrogante que representan estos productos en la matriz BCG.|
+          p.mb-0 Tengamos en cuenta que, en la etapa de introducción, los esfuerzos deben ser dinámicos, ágiles, canalizar las inversiones para el posicionamiento y conocimiento, de forma que el producto llegue a los consumidores potenciales, para resolver el interrogante que representan estos productos en la matriz BCG.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Herramientas de información Estadística básica
@@ -526,15 +526,15 @@
       .tarjeta.tarjeta--azul.p-4(titulo="Parámetros")
         h4 Parámetros
         p Son descriptores de la población de datos analizados, son medidas propias que dan información sobre:
-        p.mb-0 - El centro de un conjunto de datos (promedios, datos más repetidos o moda), 
-        p.mb-0 - Dispersión o variabilidad de los datos (medidas de dispersión)
+        p.mb-0 - El centro de un conjunto de datos (promedios, datos más repetidos o moda).
+        p.mb-0 - Dispersión o variabilidad de los datos (medidas de dispersión).
         p - Posición de un valor (medidas de posición como los percentiles).
       .tarjeta.tarjeta--azul.p-4(titulo="Variables")
         h4 Variables
-        p Expresa las características o cualidades de una población de datos, pueden ser::
+        p Expresa las características o cualidades de una población de datos, pueden ser:
         p.mb-0 #[strong - Nominales:] que no tienen orden, por ejemplo, los colores, las razones por las cuales hay ausentismo en el trabajo, etc. 
         p.mb-0 #[strong - Ordinales:] que si bien no son numéricas, si definen un sentido de ordenamiento natural. Por ejemplo, los días de la semana; también como grande, mediano, pequeño.
-        p #[strong - Numérica:] definen estrictamente un sentido de orden y se pueden hacer operaciones matemáticas con ellas, diferente a los otros tipos de variables.
+        p #[strong - Numérica:] definen estrictamente un sentido de orden y se pueden hacer operaciones matemáticas con ellas, diferentes a los otros tipos de variables.
     
     p.mb-4 Ejemplos del uso de estadística en Economía:
 
@@ -549,7 +549,7 @@
         i.fas.fa-atom(style="color: #304C8E")
         | Evolución de los precios por inflación en los últimos años.
 
-    p.mb-3(data-aos="fade-right") Por estas razones los gerentes y el personal del equipo de diagnóstico deben aprender a utilizarla, para interpretar y usarla como fuente de información agregada o resumida de algún tipo de variable o factor a analizar, así mismo para expresar los hallazgos más significativos.
+    p.mb-3(data-aos="fade-right") Por estas razones, los gerentes y el personal del equipo de diagnóstico deben aprender a utilizarla, para interpretar y usarla como fuente de información agregada o resumida de algún tipo de variable o factor a analizar, así mismo para expresar los hallazgos más significativos.
     p.mb-5(data-aos="fade-right") Ahora, conozcamos otras herramientas o técnicas de uso importante a nivel estadístico:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta color-primario")
