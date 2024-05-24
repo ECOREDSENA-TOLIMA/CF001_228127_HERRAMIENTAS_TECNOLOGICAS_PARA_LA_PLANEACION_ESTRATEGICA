@@ -323,10 +323,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Luis Eyder Ortiz',
-          cargo: 'Experto temático',
-          centro:
-            'Regional Santander - Centro de la Industria, la Empresa y los Servicios',
+          nombre: 'Carlos Fernando Riaño',
+          cargo: 'Experto',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'María Fernanda Chacón Castro',
@@ -334,9 +333,9 @@ export default {
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
-          nombre: 'Ana Catalina Córdoba Sus',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Asesora Metodológica',
-          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -345,23 +344,13 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Julia Isabel Roberto',
-          cargo: 'Correctora de Estilo',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Juan Guillermo Zuluaga Saavedra',
-          cargo: 'Experto Temático',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Humberto Arias Díaz',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        },
-        {
           nombre: 'María Inés Machado López',
-          cargo: 'Asesora Metodológica',
+          cargo: 'Metodóloga',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -370,7 +359,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Yobani Penagos',
+          nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -385,18 +374,13 @@ export default {
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Productor y Animador Audiovisual',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        },
-        {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Productor y Animador Audiovisual',
+          cargo: 'Producció audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oleg Litvin',
-          cargo: 'Productor y Animador Audiovisual',
+          cargo: 'Animador',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {

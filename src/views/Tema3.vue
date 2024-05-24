@@ -556,7 +556,7 @@
       .row.justify-content-center(titulo="Diagrama de frecuencias o estratificación")
         .col-md-12.mb-3.mb-md-0
           p Es una técnica de distribución de las frecuencias de una variable que busca estratificar el comportamiento de la misma, no denota un sentido de orden específico. 
-          p En el siguiente ejemplo se puede observar su enfoque de uso:
+          p En el siguiente ejemplo se puede conocer su enfoque de uso:
           p En una empresa agrícola, el gerente desea saber cómo es el consumo y venta de verduras; para ello, recurre al análisis estadístico del promedio de ventas de estos recursos, lo que le servirá como parámetro para tomar decisiones.
         .col-12.col-lg-10.mb-3
           //- h3.text-center Concentración del estado de cartera por ventas (millones)
@@ -591,8 +591,6 @@
           p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
         .col-12.mb-3
           //- h4.mb-4.text-center Diagrama de estratificación del estado de cartera por ventas a clientes
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Diagrama de estratificación del estado de cartera por ventas a clientes</i>
           figure
             img(src='@/assets/curso/temas/tema3/tema3-23.svg', alt='Figura 9. Diagrama de estratificación del estado de cartera por ventas a clientes donde el 50 % de la cartera equivale al 44,6 % siendo de tipo corriente, el 35 % equivale al 31.3 % %l 31.3 % y corresponde a 30 días, el 15 % de la cartera corresponde a 13.4 % y es de 60 días y el 12 % de la cartera corresponde al 10.7 % y corresponde a 90 días.')
           .d-block.d-md-none
@@ -603,7 +601,7 @@
                 p #[b Anexo.] Concentración del estado de cartera por ventas en millones de pesos.
       .row.justify-content-center(titulo="Histograma")
         .col-md-12.mb-3.mb-md-0
-          p Es la distribución del comportamiento que denota la distribución de las frecuencias a lo largo de la variable continua. Veamos el ejemplo:
+          p Es la distribución del comportamiento que denota la distribución de las frecuencias a lo largo de la variable continua. Aquí un ejemplo:
           p En el caso de las ventas en un semestre, el gerente desea saber cómo es su estacionalidad o comportamiento típico, para lo cual presenta la siguiente información.
         //- .col-12.mb-3
         //-   h3.text-center Registro del nivel de ventas por mes en primer semestre
@@ -645,8 +643,6 @@
           p En este caso, la variable continua es el tiempo (meses del primer semestre), entonces, el gerente del restaurante puede identificar el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos semestral en la empresa por ventas. Con esta información, podrá tomar decisiones sobre la disposición de caja y programación de pagos; asimismo, establecerá niveles de metas funcionales, es decir, en periodos de baja estacionalidad, la empresa podrá desarrollar actividades de capacitación o entrenamientos, ya que para su desarrollo, requiere periodos de concentración en estas actividades sin afectar la producción. De igual manera, realizará la implementación de nuevos procesos, tal como se ve para el mes de febrero.
           //- h3.text-center Histograma del comportamiento de ventas semestrales en una empresa
         .col-12.mb-3
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Histograma del comportamiento de ventas semestrales en una empresa</i>
           figure
             img(src='@/assets/curso/temas/tema3/tema3-24.svg', alt='Figura 10. Histograma del comportamiento de ventas semestrales en una empresa donde las ventas del mes de enero fueron 55 correspondientes al 18.3 % presentando un incremento porcentual del 5 % en el mes de marzo con 70 ventas siendo su pico más alto, para el mes de junio tuvo 65 ventas correspondientes al 21.7 %. Así mismo, se evidencia que el pico más bajo en las ventas fue en el mes de febrero con 20 ventas equivalentes al 6.7 % del total de las ventas del semestre.')
           .d-block.d-md-none
@@ -657,7 +653,7 @@
                 p #[b Anexo.] Comportamiento de las ventas semestrales mes a mes.
       .row.justify-content-center(titulo="Diagramas de Pastel")
         .col-12.mb-3
-          p Es otro esquema de representación gráfica estadística que busca descomponer una variable en sus diferentes categorías, mostrando la cantidad de frecuencia o casos, evidenciando cuanto del total corresponde cada categoría dentro de la variable. Veamos el ejemplo:
+          p Es otro esquema de representación gráfica estadística que busca descomponer una variable en sus diferentes categorías, mostrando la cantidad de frecuencia o casos, evidenciando cuanto del total corresponde cada categoría dentro de la variable. Se muestra con este ejemplo:
           p En un  restaurante se desea conocer el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente recibe de su administrador la siguiente información.
         .col-12.col-lg-10.mb-3
           .titulo-sexto.color-acento-contenido
@@ -685,8 +681,6 @@
                   td Total: clientes regionales
                   td 50
         .col-12.col-md-10.mb-3
-          .titulo-sexto.color-acento-contenido
-            p.titulo.pb-0.mb-0 #[b Figura 11.] #[em Distribución de clientes de la empresa por región de operación]
           figure
             img(src='@/assets/curso/temas/tema3/tema3-25.svg', alt='Figura 11. Distribución de clientes de la empresa por región de operación donde el departamento de Cundinamarca tiene mayor representación con 16 clientes equivalentes al 32 %, Antioquia el 30 % equivalente a 15 clientes, Tolima el 22 % correspondiente a 11 clientes y Boyacá el 16 % equivalente a 8 clientes para un total de 49 clientes.')
           .d-block.d-md-none

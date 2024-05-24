@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-primario
           h2 Conceptos claves de las organizaciones y su gestión administrativa 
         p.mb-4 #[b Objetivo:] fortalecer los conceptos relacionados con la gestión en las empresas, los modelos de gestión, iniciativas estratégicas y las actividades empresariales. 
         .tarjeta.actividad.p-3

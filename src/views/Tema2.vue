@@ -8,7 +8,7 @@
       h1 Proceso Administrativo
 
     p.mb-3(data-aos="zoom-down") La administración de las empresas exige el desarrollo de las cuatro fases del proceso administrativo: #[strong planeación, organización, dirección y control], sobre el conjunto de recursos administrativos que dispone para su operación, dentro de los que se mencionan físicos, talento humano, financieros, técnicos y tecnológicos. 
-    p.mb-4(data-aos="zoom-down") Como mencionamos, el proceso administrativo establece el aporte en de cada una de estas funciones a la empresa, así como la correlación o interdependencia entre ellas. Veamos el esquema:
+    p.mb-4(data-aos="zoom-down") Como mencionamos, el proceso administrativo establece el aporte en de cada una de estas funciones a la empresa, así como la correlación o interdependencia entre ellas. A continuación, se presenta el siguiente esquema:
     
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
@@ -63,7 +63,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 Plan de Acción para Empresas
-                  p.text-small Para ampliar estos aspectos referentes a los planes de acción, se recomienda revisar el artículo Qué es un plan de acción, cómo se elabora y ejemplos.
+                  p.text-small Para ampliar estos aspectos referentes a los planes de acción, se recomienda revisar el artículo Qué es un plan de acción, cómo se elabora y ejemplos, ubicado en
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="link_2_1" target="_blank")
                     span Link
@@ -103,7 +103,7 @@
             | Definir el esquema de comunicaciones y de división del trabajo, dando como resultado las áreas funcionales de una empresa.
     
     p.mb-4(data-aos="fade-down") Esta estructuración deriva en una jerarquización de los roles de la empresa, es decir, quiénes toman decisiones, quiénes coordinan las operaciones y quiénes ejecutan o verifican las acciones propiamente dichas.
-    p.mb-4(data-aos="fade-down") Veamos el siguiente esquema: 
+    p.mb-4(data-aos="fade-down") A continuación, se presenta el siguiente esquema: 
     
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-8(data-aos="fade-left")
@@ -207,8 +207,8 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Dirección
 
-    p.mb-3(data-aos="fade-down") La dirección, como función del proceso administrativo, consiste en dinamizar la empresa y poner en operación y ejecución la planeación (conjunto de iniciativas estratégicas para lograr los objetivos previstos). Una vez que se completa el proceso de planeación y de organización, se cumplirá con la disposición de los recursos para el desarrollo de las actividades, lo que presupone contratación de talento humano si se requiere, compra de recursos, arrendamiento o reorganización de tierras lotes, bodegas, ajuste de las asignaciones de las actividades de manera formal, de darse a lugar. La ejecución requiere de funciones como la comunicación para la coordinación y herramientas tecnológicas que faciliten este proceso, el liderazgo para hacer que las personas desarrollen sus labores con motivación y diligencia, en la oportunidad requerida.
-    p.mb-5(data-aos="fade-down") Veamos el siguiente recurso que nos ilustra sobre los estilos de dirección empresarial:
+    p.mb-3(data-aos="fade-down") La dirección, como función del proceso administrativo, consiste en dinamizar la empresa y poner en operación y ejecución la planeación (conjunto de iniciativas estratégicas para lograr los objetivos previstos). Una vez que se completados los procesos de planeación y de organización, se procede a disponer de los recursos necesarios, para el desarrollo de las actividades. Esto puede incluir la contratación del talento humano, la compra de recursos, el arrendamiento o reorganización de terrenos y bodegas, y el ajuste formal de las asignaciones de actividades según sea necesario.
+    p.mb-5(data-aos="fade-down") A continuación, se presentan los estilos de dirección empresarial:
 
     .tarjeta--container.row.mb-5(data-aos="fade-down")
       .col-md.tarjeta.color-secundario.p-4

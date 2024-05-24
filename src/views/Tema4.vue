@@ -52,7 +52,7 @@
                     tr
                       td 
                         p Las fortalezas son aquellos aspectos que domina la empresa para su supervivencia, lo que le permite operar, por lo que se distingue, en que es mejor que otros, etc.
-                        p Ejemplo la calidad del producto, por ello le compran y sobre todo le recompran.
+                        p Ejemplo, la calidad del producto, por ello le compran y sobre todo le recompran.
                       td 
                         p Es el comportamiento que tiene una variable controlable dentro de un factor, que hace que los impactos para la empresa sean desfavorables y la puedan estar induciendo a fracasos.
                         p Por ejemplo, retrasos en las entregas.
