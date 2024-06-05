@@ -35,7 +35,7 @@
             p.mb-0 Según Laurence (2014), las fortalezas son las variables empresariales que impactan positivamente y facilitan su sostenibilidad y crecimiento mientras que las debilidades hacen que se pierda competitividad afectando la eficiencia y efectividad empresarial.
             i.fas.fa-quote-right
 
-    p.mb-5(data-aos="fade-down") Veamos estos factores internos:
+    p.mb-5(data-aos="fade-down") A continuación, los factores internos:
     
     .row.align-items-center.justify-content-center(data-aos="fade-down-left")
       .col-md-11.col-12.d-none.d-sm-none.d-md-block.mb-5
@@ -95,7 +95,7 @@
         h5.text-center Posición Financiera
         img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-7.svg', alt='', style="width:auto")
         .tarjeta.color-acento-botones--borde.p-3.mt-3
-          p.mb-0 Se estudiarán los estados financieros como el Balance general, estado de resultados, flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
+          p.mb-0 Se estudiarán los estados financieros como el balance general, estado de resultados, flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
       .col-12.mb-4(data-aos="fade-down-right")
         h5.text-center Tecnología disponible
         img.mx-auto.text-center(src='@/assets/curso/temas/tema3/info-8.svg', alt='', style="width:auto")
@@ -459,7 +459,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/tema3-19.png', alt='')
 
-    p.mb-5(data-aos="zoom-down-right") En la siguiente figura, podemos observar reflejadas las 4 etapas del ciclo de vida de un producto.
+    p.mb-5(data-aos="zoom-down-right") En la siguiente figura, están reflejadas las 4 etapas del ciclo de vida de un producto.
 
     .row.justify-content-center.mb-5
       .col-12.col-md-11.col-lg-10(data-aos="fade-left")
@@ -513,7 +513,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/tema3-22-a.svg', :alt='alt_img_22')
 
-    h3.mb-3(data-aos="fade-right") ¿Cuáles son los elementos de la Estadística?
+    h3.mb-3(data-aos="fade-right") ¿Cuáles son los elementos de la estadística?
     p.mb-4(data-aos="fade-right") Los principales elementos que conforman la estadística son los siguientes:
 
     TabsA.color-acento-botones.mb-4(data-aos="fade-down-right")
@@ -536,7 +536,7 @@
         p.mb-0 #[strong - Ordinales:] que si bien no son numéricas, si definen un sentido de ordenamiento natural. Por ejemplo, los días de la semana; también como grande, mediano, pequeño.
         p #[strong - Numérica:] definen estrictamente un sentido de orden y se pueden hacer operaciones matemáticas con ellas, diferentes a los otros tipos de variables.
     
-    p.mb-4 Ejemplos del uso de estadística en Economía:
+    p.mb-4 Ejemplos del uso de estadística en economía:
 
     ul.lista-ul.mb-4
       li(data-aos="fade-down")

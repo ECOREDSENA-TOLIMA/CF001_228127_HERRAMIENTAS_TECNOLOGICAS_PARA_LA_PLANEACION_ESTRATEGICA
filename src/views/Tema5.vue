@@ -62,7 +62,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small.mb-0 Busca la mejora continua en el desempeño del sistema de gestión de calidad en las empresas, logrando niveles de eficiencia por rendimientos, innovación procedimental; procura que se den mejores resultados en los procesos.
 
-    p.mb-5(data-aos="fade-down") Ahora, veamos algunas diferencias entre la familia de normas ISO 9000:
+    p.mb-5(data-aos="fade-down") A continuación, algunas diferencias entre la familia de normas ISO 9000:
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
       .col-12.col-lg-10.col.md-11.mb-4.mb-md-0

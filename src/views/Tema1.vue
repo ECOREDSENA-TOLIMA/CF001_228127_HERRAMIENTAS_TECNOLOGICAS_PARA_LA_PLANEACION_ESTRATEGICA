@@ -63,8 +63,6 @@
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según la destinación de los recursos y utilidad
       div.titulo-herramientas.d-block.d-md-none Según la destinación de los recursos y utilidad
 
-    p.mb-5(data-aos="zoom-down-right") Veamos en qué consiste esta clasificación:
-
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-down")
       .row(titulo="Organizaciones con ánimo de lucro")
         .col-md-4.col-lg-3.mb-4.mb-md-0
@@ -215,7 +213,7 @@
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Según su objeto de actividad  
       div.titulo-herramientas.d-block.d-md-none Según su objeto de actividad  
 
-    p.mb-5(data-aos="zoom-down-right") Veamos cuál es la clasificación que corresponde a esta modalidad:
+    p.mb-5(data-aos="zoom-down-right") A continuación, la clasificación que corresponde a esta modalidad:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-md-10.col-lg-9.col-12.d-none.d-sm-none.d-md-block
@@ -267,7 +265,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-10.svg', alt='')
 
-    p.mb-4(data-aos="flip-left") En la siguiente figura se observa un resumen sobre los sectores económicos.
+    p.mb-4(data-aos="flip-left") En la siguiente figura se presenta un resumen sobre los sectores económicos.
     .row.justify-content-center.mb-5
       .col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido

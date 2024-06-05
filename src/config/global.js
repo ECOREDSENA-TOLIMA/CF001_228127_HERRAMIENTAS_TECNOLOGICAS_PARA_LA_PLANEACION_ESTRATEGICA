@@ -309,12 +309,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -324,12 +324,12 @@ export default {
       autores: [
         {
           nombre: 'Carlos Fernando Riaño',
-          cargo: 'Experto',
+          cargo: 'Experto Temático',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'María Fernanda Chacón Castro',
-          cargo: 'Diseñadora Instruccional',
+          cargo: 'Diseñador Instruccional',
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
@@ -345,12 +345,17 @@ export default {
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de Estilo',
+          cargo: 'Correctora de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
+          nombre: 'Humberto Arias Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
           nombre: 'María Inés Machado López',
-          cargo: 'Metodóloga',
+          cargo: 'Revisora Metodológica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -359,12 +364,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Fernando Botero Mendoza',
-          cargo: 'Diseñador Web',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Oscar Daniel Espitia Marin',
+          nombre: 'Davison Gaitán Escobar',
           cargo: 'Desarrollador Fullstack',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -375,16 +375,16 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Producció audiovisual',
+          cargo: 'Producción audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oleg Litvin',
-          cargo: 'Animador',
+          cargo: 'Productor y Animador',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Oscar Daniel Espitia Marín',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Actividad Didáctica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -394,7 +394,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Bustos Gómez',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },

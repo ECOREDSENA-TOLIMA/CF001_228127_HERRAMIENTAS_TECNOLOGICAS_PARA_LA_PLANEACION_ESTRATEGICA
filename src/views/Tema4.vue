@@ -92,7 +92,7 @@
               p #[b Anexo.] Matriz DOFA.
 
     p.mb-3(data-aos="fade-down") La técnica indica que, a partir del cruce de las condiciones actuales endógenas frente a las exógenas, la empresa debe tomar medidas o iniciativas estratégicas para actuar en favor de su condición o para mitigar o reducir el impacto. Las iniciativas estratégicas y de actuación FO y DO permitan el mejoramiento, el desarrollo, crecimiento de la empresa, pues el contexto facilita ampliar sus fortalezas o superar las debilidades. Estas iniciativas estratégicas y de actuación FA y DA buscan proteger la empresa, mitigar los riesgos o los efectos de las amenazas que no son controlables; el problema es que si la empresa es débil le será difícil afrontar esta situación, por lo cual debe prepararse en caso su ocurrencia, porque no son certeras las adversidades.
-    p.mb-5(data-aos="fade-down") Le invitamos a ver el siguiente video con información relevante:
+    p.mb-5(data-aos="fade-down") En el siguiente video, se encuentra la información acerca de las técnicas de planeación estratégica.
 
     figure.mb-5(data-aos="flip-left")
       .video
@@ -138,7 +138,7 @@
 
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.3 Gestión Basada en Procesos
+      h2 4.3 Gestión basada en procesos
 
     p.mb-3(data-aos="fade-down") Convencionalmente, las organizaciones empresariales se han estructurado desde una concepción por departamentos o áreas funcionales, por la afinidad de las actividades, lo que dificulta tanto las comunicaciones en la agregación de los valores de una a otra función como la construcción y demandas hacia los clientes; este enfoque de gestión ha permitido definir estructuras a partir de jerarquización de cargos, pero el funcionamiento de la empresa, los flujos de información y comunicación interna o las relaciones con los clientes, no se ven reflejados con absoluta claridad y fluidez.
     p.mb-3(data-aos="fade-down") La #[strong Gestión Basada en Procesos] percibe a la empresa u organización como un conjunto de sistemas interrelacionados de procesos y subprocesos de diferente índole, que contribuyen conjuntamente a incrementar la satisfacción de los clientes. Es un modelo de gestión alternativo al modelo tradicional caracterizado por estructuras jerárquicas meramente funcionales que describen agregaciones de valor, de manera desarticulada, que depende del paso de áreas a áreas funcionales. 
@@ -154,9 +154,9 @@
             p.mb-0 La #[strong Gestión por Procesos] es la forma de gestionar las organizaciones basándose en los procesos que desarrolla la empresa, pero ordenados como una secuencia de actividades orientadas a generar un valor añadido continuo, para lograr los resultados deseados, con lo cual es posible la satisfacción a los requerimientos técnicos y específicos que los clientes han planteado de manera mucho más eficiente y eficaz, lo que implica una concentración en los procesos propiamente dichos y no en la estructura jerárquica y de protocolos de comunicación entre áreas funcionales. 
 
     p.mb-3(data-aos="fade-down") Esto es, porque la calidad de los productos o servicios, como la satisfacción del cliente, dependen de tales procesos, es decir, son una consecuencia del trabajo bien hecho y de una agregación adecuada y oportuna de valores por parte de la empresa. En este sentido, el modelo de gestión por procesos, requiere una estructura organizacional que parte de la clasificación de los procesos que adelanta la empresa. A esta estructura se le asignan equipos de trabajo gestionados por un líder de proceso, quien coordina las actividades internas y externas con otros grupos de procesos.
-    p.mb-3(data-aos="fade-down") ¿Cuáles son las características de la Gestión Basada en Procesos?
+    p.mb-3(data-aos="fade-down") ¿Cuáles son las características de la gestión basada en procesos?
     p.mb-3(data-aos="fade-down") En este enfoque, los objetivos que define la organización empresarial se fijan desde el aporte que los procesos puedan obtener o dar.
-    p.mb-5(data-aos="fade-down") Veamos el siguiente ejemplo:
+    p.mb-5(data-aos="fade-down") A continuación, el siguiente ejemplo:
 
     .row.align-items-center.justify-content-center(data-aos="fade-down-left")
       .col-md-10.col-lg-9.col-12.d-none.d-sm-none.d-md-block.mb-5
@@ -174,7 +174,7 @@
           img(src='@/assets/curso/temas/tema4/tema4-06-sm.svg', alt='En una empresa el objetivo convencional es aumentar los niveles de facturación, lo que está estrechamente asociado con el proceso de comercialización. En esta área, la venta es el resultado de canalizar las demandas de los clientes y no es simplemente un acto que genera facturas correctamente. En este sentido, las empresas deben fortalecer su proceso comercial para que las ventas se realicen con mayor eficacia, es decir, con mejor respuesta para suplir las necesidades comerciales del cliente.')
 
 
-    p.mb-3(data-aos="fade-down") Como observamos en el ejemplo, este ejercicio permite desarrollar sinergias entre las diferentes funciones o subprocesos; en el caso planteado, el proceso comercial y de facturación se homologarían en una sola secuencia lógica en favor de la satisfacción al cliente, de una manera mucho más eficiente y eficaz.
+    p.mb-3(data-aos="fade-down") Este ejercicio permite desarrollar sinergias entre las diferentes funciones o subprocesos; en el caso planteado, el proceso comercial y de facturación se homologarían en una sola secuencia lógica en favor de la satisfacción al cliente, de una manera mucho más eficiente y eficaz.
     p.mb-3(data-aos="fade-down") En el modelo de gestión por procesos es fundamental conocer qué proceso existe detrás de un objetivo para trabajar la iniciativa de acción estratégica y lograr el objetivo. 
     p.mb-5(data-aos="fade-down") En el ejemplo anterior en el que se pretende aumentar la facturación, se debe definir en el proceso comercial: 
 
