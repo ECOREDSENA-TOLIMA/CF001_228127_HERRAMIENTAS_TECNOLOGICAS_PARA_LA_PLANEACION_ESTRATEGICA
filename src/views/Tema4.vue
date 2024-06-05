@@ -92,7 +92,7 @@
               p #[b Anexo.] Matriz DOFA.
 
     p.mb-3(data-aos="fade-down") La técnica indica que, a partir del cruce de las condiciones actuales endógenas frente a las exógenas, la empresa debe tomar medidas o iniciativas estratégicas para actuar en favor de su condición o para mitigar o reducir el impacto. Las iniciativas estratégicas y de actuación FO y DO permitan el mejoramiento, el desarrollo, crecimiento de la empresa, pues el contexto facilita ampliar sus fortalezas o superar las debilidades. Estas iniciativas estratégicas y de actuación FA y DA buscan proteger la empresa, mitigar los riesgos o los efectos de las amenazas que no son controlables; el problema es que si la empresa es débil le será difícil afrontar esta situación, por lo cual debe prepararse en caso su ocurrencia, porque no son certeras las adversidades.
-    p.mb-5(data-aos="fade-down") En el siguiente video, se encuentra la información acerca de las técnicas de planeación estratégica.
+    p.mb-5(data-aos="fade-down") En el siguiente video, se encuentra la información acerca de las técnicas de planeación estratégica:
 
     figure.mb-5(data-aos="flip-left")
       .video
@@ -102,7 +102,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 #[i Balanced Scorecard (BSC)]
 
-    p.mb-5(data-aos="fade-down") El #[i Balanced ScoreCard] es un modelo o herramienta de gestión empresarial que convierte la visión o el objetivo a más largo plazo que tiene la empresa en acciones explícitas, mediante un conjunto de indicadores de gestión divididos en cuatro categorías o perspectivas que deben regir la empresa u organización; estas perspectivas son las siguientes:
+    p.mb-5(data-aos="fade-down") El #[i Balanced Scorecard] es un modelo o herramienta de gestión empresarial que convierte la visión o el objetivo a más largo plazo que tiene la empresa en acciones explícitas, mediante un conjunto de indicadores de gestión divididos en cuatro categorías o perspectivas que deben regir la empresa u organización; estas perspectivas son las siguientes:
 
     TabsB.color-acento-contenido.mb-5(data-aos="flip-right")
       .py-4.py-md-5(titulo="Financiera")
@@ -141,7 +141,7 @@
       h2 4.3 Gestión basada en procesos
 
     p.mb-3(data-aos="fade-down") Convencionalmente, las organizaciones empresariales se han estructurado desde una concepción por departamentos o áreas funcionales, por la afinidad de las actividades, lo que dificulta tanto las comunicaciones en la agregación de los valores de una a otra función como la construcción y demandas hacia los clientes; este enfoque de gestión ha permitido definir estructuras a partir de jerarquización de cargos, pero el funcionamiento de la empresa, los flujos de información y comunicación interna o las relaciones con los clientes, no se ven reflejados con absoluta claridad y fluidez.
-    p.mb-3(data-aos="fade-down") La #[strong Gestión Basada en Procesos] percibe a la empresa u organización como un conjunto de sistemas interrelacionados de procesos y subprocesos de diferente índole, que contribuyen conjuntamente a incrementar la satisfacción de los clientes. Es un modelo de gestión alternativo al modelo tradicional caracterizado por estructuras jerárquicas meramente funcionales que describen agregaciones de valor, de manera desarticulada, que depende del paso de áreas a áreas funcionales. 
+    p.mb-3(data-aos="fade-down") La #[strong gestión basada en procesos] percibe a la empresa u organización como un conjunto de sistemas interrelacionados de procesos y subprocesos de diferente índole, que contribuyen conjuntamente a incrementar la satisfacción de los clientes. Es un modelo de gestión alternativo al modelo tradicional caracterizado por estructuras jerárquicas meramente funcionales que describen agregaciones de valor, de manera desarticulada, que depende del paso de áreas a áreas funcionales. 
     p.mb-5(data-aos="fade-down") Entonces, ¿cuál es la diferencia de la gestión de procesos frente al modelo tradicional?
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-right")
