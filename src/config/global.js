@@ -172,6 +172,13 @@ export default {
         'https://www.centro-virtual.com/recursos/biblioteca/pdf/dgp_gestion_calidad/clase2_pdf1.pdf',
     },
     {
+      tema: 'Planeación',
+      referencia:
+        'Rodríguez N. (s.f.). Que es un plan de acción, como se elabora y ejemplos. Hubspot.',
+      tipo: 'Artículo',
+      link: 'https://blog.hubspot.es/sales/plan-de-accion-empresa',
+    },
+    {
       tema: 'Modelos de gestión',
       referencia:
         'Terreros, D. Indicadores de gestión empresarial: características y tipos.',
