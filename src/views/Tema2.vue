@@ -164,7 +164,7 @@
                   p.text-small Le invitamos a revisar el siguiente ejemplo de organización de áreas, actividades y recursos en una empresa, que describe la técnica para la asignación y estimación de recursos y el desarrollo de las actividades.
                   p.text-small Asimismo, si desea tener mayor detalle, consulte el documento #[em Presupuesto de recursos administrativos por área o proceso], en el que puede evidenciar un modelo de organización. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_presupuesto_recursos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1.Presupuestoderecursos_estimacionglobal.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
